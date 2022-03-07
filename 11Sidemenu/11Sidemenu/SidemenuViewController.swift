@@ -18,7 +18,6 @@ class SidemenuViewController: UIViewController {
     }
     
     @IBAction func onBtnLogin(_ sender: UIButton) {
-        //사이드메뉴 닫기
         appDelegate.mySidemenu?.dismiss(animated: true, completion: nil)
         //메인화면에서 로그인화면으로 이동하기
         appDelegate.mainVC?.gotoLoginView()
@@ -26,8 +25,7 @@ class SidemenuViewController: UIViewController {
     
     @IBAction func onBtnNotice(_ sender: UIButton) {
         appDelegate.mySidemenu?.dismiss(animated: true, completion: nil)
-        //메인화면에서 공지화면으로 이동하기
+        //메인화면에서 공지사항화면으로 이동하기
         appDelegate.mainVC?.gotoNoticeView()
     }
-    
 }

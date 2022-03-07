@@ -15,15 +15,16 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    func gotoLoginView(){
+    func gotoLoginView() {
         //네비게이션 컨트롤러로 이동하기
-        let loginVC = self.storyboard?.instantiateViewController(withIdentifier: "LoginVC") as! LoginViewController
+        let loginVC = self.storyboard?.instantiateViewController(identifier: "LoginVC") as! LoginViewController
         self.navigationController?.pushViewController(loginVC, animated: true)
     }
-    func gotoNoticeView(){
-        let noticeVC = self.storyboard?.instantiateViewController(withIdentifier: "NoticeVC") as! NoticeViewController
+
+    func gotoNoticeView() {
+        //네비게이션 컨트롤러로 이동하기
+        let noticeVC = self.storyboard?.instantiateViewController(identifier: "NoticeVC") as! NoticeViewController
         self.navigationController?.pushViewController(noticeVC, animated: true)
-        
     }
 
 }

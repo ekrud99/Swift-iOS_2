@@ -61,6 +61,7 @@
                         <viewLayoutGuide key="safeArea" id="Lk6-WG-K6P"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="LV3-5Y-eL5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="55G-2j-rof" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -85,6 +86,7 @@
                         <viewLayoutGuide key="safeArea" id="iIv-B8-5dg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ejN-aN-LyD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XVo-Qe-tf9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -111,16 +113,18 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="공지"/>
                                 <connections>
-                                    <action selector="onBtnNotice:" destination="8aN-S3-WKU" eventType="touchUpInside" id="Ipo-zo-5sl"/>
+                                    <action selector="onBtnNotice:" destination="8aN-S3-WKU" eventType="touchUpInside" id="l2i-T6-zdV"/>
+                                    <segue destination="XS1-Ae-djW" kind="show" id="HML-EM-aQ5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gtO-ra-Uh8">
-                                <rect key="frame" x="35" y="133" width="56" height="31"/>
+                                <rect key="frame" x="31" y="118" width="56" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="login"/>
                                 <connections>
-                                    <action selector="onBtnLogin:" destination="8aN-S3-WKU" eventType="touchUpInside" id="tHY-Pe-wES"/>
+                                    <action selector="onBtnLogin:" destination="8aN-S3-WKU" eventType="touchUpInside" id="uVE-Jb-1V3"/>
+                                    <segue destination="u1J-UG-gE6" kind="show" id="yfM-wV-Fxp"/>
                                 </connections>
                             </button>
                         </subviews>
