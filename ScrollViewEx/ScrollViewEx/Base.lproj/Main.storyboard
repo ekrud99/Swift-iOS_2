@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nAr-WM-1xe">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ScrollViewEx" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image1" translatesAutoresizingMaskIntoConstraints="NO" id="b3O-y7-fSy">
+                                <rect key="frame" x="20" y="103" width="374" height="288"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K5u-ze-Nt9">
+                                <rect key="frame" x="20" y="399" width="374" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="가사보기"/>
+                                <connections>
+                                    <segue destination="KsY-7o-JPY" kind="show" id="afb-FJ-bgQ"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image2" translatesAutoresizingMaskIntoConstraints="NO" id="5Hy-qY-eCl">
+                                <rect key="frame" x="20" y="478" width="374" height="288"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J5i-GL-ZBU">
+                                <rect key="frame" x="20" y="774" width="374" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="가사보기"/>
+                                <connections>
+                                    <segue destination="uDK-7l-kCN" kind="show" id="4Hr-qQ-79N"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="unB-AV-4ir"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.98550724637687" y="82.366071428571431"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="KFz-4H-0w5">
+            <objects>
+                <viewController id="uDK-7l-kCN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MOL-do-4fT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YjC-mn-eCW">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yx4-SF-i9D">
+                                        <rect key="frame" x="8" y="8" width="398" height="810"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <mutableString key="text">Hmm, yeah, hmm
+텅 빈 회색 빛 거린 참 허전해
+쓸쓸한 기분에 유리창을 열어
+내민 두 손위로 떨어진 빗방울
+가득 고이는 그리움 나의 맘에 흘러
+왠지 네가 보고픈 밤
+차오르는 눈물
+떠오르는 나의 맘 속
+비가 오면 내리는 기억에
+번지는 아픔에
+흠뻑 쏟아지는 너를 보다
+선명했던 그 시간에 멈춘 채
+추억에 젖은 채
+아름다웠던 너를 그려 in the rain
+Hmm
+길었던 참 눈이 부셨던 계절도
+사진첩 속에 얼룩져
+색이 바래질까?
+점점 깊어가는 이 밤
+잊지 못한 약속
+따뜻했던 품도 안녕
+비가 오면 내리는 기억에
+번지는 아픔에
+흠뻑 쏟아지는 너를 보다
+선명했던 그 시간에 멈춘 채
+추억에 젖은 채
+아름다웠던 너를 그려
+In the rain
+흑백뿐인 세상 속 한줄기의 빛이 돼준 너
+(Rain) 비가 되어 다가와, 내 영혼을 환히 밝혀줘
+Doo-doo-doo-doo-doo-doo-doo
+Doo-doo-doo-doo-doo-doo-doo
+Doo-doo-doo-doo-doo-doo-doo
+Doo-doo-doo-doo-doo-doo-doo
+Doo-doo-doo-doo-doo-doo-doo
+Doo-doo-doo-doo-doo-doo-doo
+Oh, oh, oh, oh, oh, whoa
+우산 아래 나직했던 속삭임
+Ooh, ooh, 가슴 한 켠에 퍼져 네가 들려
+오늘 하루 내 안부를 묻듯이
+편안한 빗소리
+아련히 물든 기억 너란 빗속에
+Ooh, ooh, rain
+Ooh, dreaming in the rain                </mutableString>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="0dB-yV-Wb8"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="5gD-5d-Ftw"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wXD-gg-pcp"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oyB-6u-4J8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k9K-b7-zcV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1430.4347826086957" y="738.61607142857144"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vnq-el-brM">
+            <objects>
+                <viewController id="KsY-7o-JPY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="diL-aj-ty7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nTj-x0-DwI">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8v5-HE-jDq">
+                                        <rect key="frame" x="8" y="8" width="398" height="802"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fCf-dP-Kqc">
+                                                <rect key="frame" x="0.0" y="8" width="398" height="786"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <mutableString key="text">Ah-ah, ah-ah, ah-ah
+Ah-ah, ah-ah, ah-ah
+키만 훌쩍 커버린 어른아이 같아
+진심이 없는 네 말에 감당하지 못 할
+감정을 택했잖아, 그래, too late
+상처를 되돌리기엔 늦어버렸어
+미쳤다 해도, 뭐 어때? Ah-ah, ah-ah
+'Cause I can't control myself, ah-ah, ah-ah
+네 앞에선 모든 게 잘 통제가 안 돼
+다 터질 것만 같아 'cause I can't control myself
+반복되는 bad days
+비참해, 바닥난 감정
+헛돌기만 해 헐거운 반지처럼
+상관없어, 사랑이 다 이럴 텐데
+미쳤다 해도, 뭐 어때? Ah-ah, ah-ah
+'Cause I can't control myself, ah-ah, ah-ah
+네 앞에선 모든 게 잘 통제가 안 돼
+다 터질 것만 같아 'cause I can't control myself
+Ah, ha-ha-ha, feels like heaven, feels like hell
+Ah, ha-ha-ha, 그마저도 I don't care
+Ah, ah, 난 또다시 네게 되돌아갈 텐데
+미쳤다 해도, 뭐 어때? Oh-oh, oh-oh
+'Cause I can't control myself, oh-oh, oh-oh
+네 앞에선 모든 게 잘 통제가 안 돼
+다 터질 것만 같아 'cause I can't control myself
+Ah-ah, ah-ah
+Ah-ah, ah-ah
+네 앞에선 모든 게 잘 통제가 안 돼
+다 터질 것만 같아 'cause I can't control myself
+</mutableString>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="6fz-WT-iee"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="6qQ-nP-806"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="aGy-O7-9MY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hzs-ne-h6w"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c0g-Eb-q4i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1598.5507246376812" y="92.410714285714278"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="TzJ-ao-W2v">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nAr-WM-1xe" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xjx-xW-Yxc">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="5a7-o2-NJ8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RJB-26-qHK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="82.366071428571431"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="image1" width="902" height="890"/>
+        <image name="image2" width="928" height="938"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
