@@ -13,7 +13,7 @@
 		5DD4611127DCE4D200265952 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DD4610F27DCE4D200265952 /* Main.storyboard */; };
 		5DD4611327DCE4D400265952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DD4611227DCE4D400265952 /* Assets.xcassets */; };
 		5DD4611627DCE4D400265952 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DD4611427DCE4D400265952 /* LaunchScreen.storyboard */; };
-		5DD4612027DCE75800265952 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DD4611F27DCE75700265952 /* music.mp3 */; };
+		5DD4612227DCFB2B00265952 /* music1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DD4612127DCFB2B00265952 /* music1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		5DD4611227DCE4D400265952 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DD4611527DCE4D400265952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DD4611727DCE4D400265952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DD4611F27DCE75700265952 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		5DD4612127DCFB2B00265952 /* music1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 		5DD4610827DCE4D200265952 /* 14AudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				5DD4611F27DCE75700265952 /* music.mp3 */,
+				5DD4612127DCFB2B00265952 /* music1.mp3 */,
 				5DD4610927DCE4D200265952 /* AppDelegate.swift */,
 				5DD4610B27DCE4D200265952 /* SceneDelegate.swift */,
 				5DD4610D27DCE4D200265952 /* ViewController.swift */,
@@ -128,9 +128,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DD4612027DCE75800265952 /* music.mp3 in Resources */,
 				5DD4611627DCE4D400265952 /* LaunchScreen.storyboard in Resources */,
 				5DD4611327DCE4D400265952 /* Assets.xcassets in Resources */,
+				5DD4612227DCFB2B00265952 /* music1.mp3 in Resources */,
 				5DD4611127DCE4D200265952 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
