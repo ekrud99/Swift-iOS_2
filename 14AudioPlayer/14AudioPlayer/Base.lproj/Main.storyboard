@@ -128,9 +128,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xde-st-zYm">
+                                <rect key="frame" x="166" y="669" width="83" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Lyrics"/>
+                                <connections>
+                                    <segue destination="hAs-2a-qHq" kind="show" id="R64-SN-Ltt"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="cmc-mq-M28"/>
                     <connections>
@@ -147,6 +156,95 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1855.072463768116" y="83.705357142857139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Uxp-fv-j0q">
+            <objects>
+                <viewController id="hAs-2a-qHq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="y7t-Eg-yMN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image1" translatesAutoresizingMaskIntoConstraints="NO" id="eif-E1-33t">
+                                <rect key="frame" x="87" y="162" width="240" height="203"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rain - Taeyeon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9X5-Nj-VTT">
+                                <rect key="frame" x="142" y="96" width="131" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Im-vS-ESm">
+                                <rect key="frame" x="20" y="384" width="374" height="478"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Bdw-AQ-bmE">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="478"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <mutableString key="text">Hmm, yeah, hmm
+텅 빈 회색 빛 거린 참 허전해
+쓸쓸한 기분에 유리창을 열어
+내민 두 손위로 떨어진 빗방울
+가득 고이는 그리움 나의 맘에 흘러
+왠지 네가 보고픈 밤
+차오르는 눈물
+떠오르는 나의 맘 속
+비가 오면 내리는 기억에
+번지는 아픔에
+흠뻑 쏟아지는 너를 보다
+선명했던 그 시간에 멈춘 채
+추억에 젖은 채
+아름다웠던 너를 그려 in the rain
+Hmm
+길었던 참 눈이 부셨던 계절도
+사진첩 속에 얼룩져
+색이 바래질까?
+점점 깊어가는 이 밤
+잊지 못한 약속
+따뜻했던 품도 안녕
+비가 오면 내리는 기억에
+번지는 아픔에
+흠뻑 쏟아지는 너를 보다
+선명했던 그 시간에 멈춘 채
+추억에 젖은 채
+아름다웠던 너를 그려
+In the rain
+흑백뿐인 세상 속 한줄기의 빛이 돼준 너
+(Rain) 비가 되어 다가와, 내 영혼을 환히 밝혀줘
+Doo-doo-doo-doo-doo-doo-doo
+Doo-doo-doo-doo-doo-doo-doo
+Doo-doo-doo-doo-doo-doo-doo
+Doo-doo-doo-doo-doo-doo-doo
+Doo-doo-doo-doo-doo-doo-doo
+Doo-doo-doo-doo-doo-doo-doo
+Oh, oh, oh, oh, oh, whoa
+우산 아래 나직했던 속삭임
+Ooh, ooh, 가슴 한 켠에 퍼져 네가 들려
+오늘 하루 내 안부를 묻듯이
+편안한 빗소리
+아련히 물든 기억 너란 빗속에
+Ooh, ooh, rain
+Ooh, dreaming in the rain</mutableString>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="eZW-dp-nOp"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="eAr-Bh-KMF"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="aAL-1S-B3x"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="PN8-Uw-7Fb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EaG-Nj-QKx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2634.7826086956525" y="94.419642857142847"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="xEU-oN-MUI">
@@ -168,7 +266,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="image1" width="902" height="890"/>
         <image name="music.note" catalog="system" width="97" height="128"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
