@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35282E3B9F1CACFD1D68FBCC /* Pods_15MoviePlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E8667258BDB2BF6C34198E /* Pods_15MoviePlayer.framework */; };
 		5DA7BC1C27E37DE200329FBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7BC1B27E37DE200329FBF /* AppDelegate.swift */; };
 		5DA7BC1E27E37DE200329FBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7BC1D27E37DE200329FBF /* SceneDelegate.swift */; };
 		5DA7BC2027E37DE200329FBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7BC1F27E37DE200329FBF /* ViewController.swift */; };
@@ -26,6 +27,9 @@
 		5DA7BC2727E37DE700329FBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DA7BC2927E37DE700329FBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DA7BC2F27E3802800329FBF /* Video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video1.mp4; sourceTree = "<group>"; };
+		68E8667258BDB2BF6C34198E /* Pods_15MoviePlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_15MoviePlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1BBE3096D4C88FCC4970E45 /* Pods-15MoviePlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-15MoviePlayer.release.xcconfig"; path = "Target Support Files/Pods-15MoviePlayer/Pods-15MoviePlayer.release.xcconfig"; sourceTree = "<group>"; };
+		EACB9D4224C9AFB4E3E5CAE8 /* Pods-15MoviePlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-15MoviePlayer.debug.xcconfig"; path = "Target Support Files/Pods-15MoviePlayer/Pods-15MoviePlayer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35282E3B9F1CACFD1D68FBCC /* Pods_15MoviePlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0097CC01068490C1E770F615 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68E8667258BDB2BF6C34198E /* Pods_15MoviePlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		343664B1B07F346536D67E72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EACB9D4224C9AFB4E3E5CAE8 /* Pods-15MoviePlayer.debug.xcconfig */,
+				A1BBE3096D4C88FCC4970E45 /* Pods-15MoviePlayer.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5DA7BC0F27E37DE200329FBF = {
 			isa = PBXGroup;
 			children = (
 				5DA7BC1A27E37DE200329FBF /* 15MoviePlayer */,
 				5DA7BC1927E37DE200329FBF /* Products */,
+				343664B1B07F346536D67E72 /* Pods */,
+				0097CC01068490C1E770F615 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DA7BC2C27E37DE700329FBF /* Build configuration list for PBXNativeTarget "15MoviePlayer" */;
 			buildPhases = (
+				19DF974A5DD134BAF9731149 /* [CP] Check Pods Manifest.lock */,
 				5DA7BC1427E37DE200329FBF /* Sources */,
 				5DA7BC1527E37DE200329FBF /* Frameworks */,
 				5DA7BC1627E37DE200329FBF /* Resources */,
+				09655F5E1464D715A2070D61 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,6 +163,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09655F5E1464D715A2070D61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-15MoviePlayer/Pods-15MoviePlayer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-15MoviePlayer/Pods-15MoviePlayer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-15MoviePlayer/Pods-15MoviePlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19DF974A5DD134BAF9731149 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-15MoviePlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5DA7BC1427E37DE200329FBF /* Sources */ = {
@@ -288,6 +357,7 @@
 		};
 		5DA7BC2D27E37DE700329FBF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EACB9D4224C9AFB4E3E5CAE8 /* Pods-15MoviePlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,6 +385,7 @@
 		};
 		5DA7BC2E27E37DE700329FBF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1BBE3096D4C88FCC4970E45 /* Pods-15MoviePlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

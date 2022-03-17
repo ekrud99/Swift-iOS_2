@@ -34,7 +34,7 @@
                                     <action selector="onBtnPlayLink:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kur-4A-YOd"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6hk-ad-3AL">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6hk-ad-3AL" customClass="YTPlayerView">
                                 <rect key="frame" x="20" y="381" width="374" height="283"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
@@ -52,6 +52,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="youtubePlayer" destination="6hk-ad-3AL" id="an2-S2-ELc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
