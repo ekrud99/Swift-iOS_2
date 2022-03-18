@@ -9,7 +9,7 @@ import CoreLocation //애블 SDK - GPS에서 좌표를 가져오는 라이브러
 
 //개발자 콘솔
 //https://console.cloud.google.com/
-//API key: AIzaSyBtW3cWqeKO5Hrgz_5ncqtKBzn3lg9VdDA
+
 //cocoa pod 사용 google library 사용
 
 class GoogleMapViewController: UIViewController, GMSMapViewDelegate, CLLocationManagerDelegate {
