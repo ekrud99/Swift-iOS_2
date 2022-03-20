@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8DB537DE-D5A6-47D7-AB48-8C7B874A29EB"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EFEDE7D6-F4C7-4D1A-BD04-8586261713E1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "17GoogleMap/GoogleMapViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "GoogleMapViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "EFEDE7D6-F4C7-4D1A-BD04-8586261713E1 - 998a85147a4bdc06"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_7GoogleMap.GoogleMapViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; _7GoogleMap.GoogleMapViewController"
+                  moduleName = "17GoogleMap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choidagyeong/Documents/iOSProjects2/17GoogleMap/17GoogleMap/GoogleMapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  uuid = "EFEDE7D6-F4C7-4D1A-BD04-8586261713E1 - 8794b688cd6e3e69"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_7GoogleMap.GoogleMapViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; _7GoogleMap.GoogleMapViewController"
+                  moduleName = "17GoogleMap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choidagyeong/Documents/iOSProjects2/17GoogleMap/17GoogleMap/GoogleMapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "149">
+               </Location>
+               <Location
+                  uuid = "EFEDE7D6-F4C7-4D1A-BD04-8586261713E1 - 4fda93d2e5d4613"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_7GoogleMap.GoogleMapViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;_7GoogleMap.GoogleMapViewController&gt;"
+                  moduleName = "17GoogleMap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choidagyeong/Documents/iOSProjects2/17GoogleMap/17GoogleMap/GoogleMapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "EFEDE7D6-F4C7-4D1A-BD04-8586261713E1 - 57b19be932cafd1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_7GoogleMap.GoogleMapViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;_7GoogleMap.GoogleMapViewController&gt;"
+                  moduleName = "17GoogleMap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choidagyeong/Documents/iOSProjects2/17GoogleMap/17GoogleMap/GoogleMapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "106">
+               </Location>
+               <Location
+                  uuid = "EFEDE7D6-F4C7-4D1A-BD04-8586261713E1 - 40bf7f89f02a887c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_7GoogleMap.GoogleMapViewController.__deallocating_deinit"
+                  moduleName = "17GoogleMap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choidagyeong/Documents/iOSProjects2/17GoogleMap/17GoogleMap/GoogleMapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
