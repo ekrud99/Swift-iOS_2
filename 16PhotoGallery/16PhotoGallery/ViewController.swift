@@ -46,7 +46,12 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
                 imageView.image = originalImage
                 captureImage = originalImage
             }
+            //피커뷰 창을 닫아줌
+            self.dismiss(animated: true, completion: nil)
         }
+    }
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        self.dismiss(animated: true, completion: nil)
     }
 
 }
