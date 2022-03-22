@@ -227,21 +227,70 @@
             </objects>
             <point key="canvasLocation" x="3469.5652173913045" y="68.973214285714278"/>
         </scene>
-        <!--View Controller-->
+        <!--My Table View Controller-->
         <scene sceneID="8OG-Ru-5Ne">
             <objects>
-                <viewController id="fBw-jM-1ie" sceneMemberID="viewController">
+                <viewController id="fBw-jM-1ie" customClass="MyTableViewController" customModule="reviewEx01" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="l90-Ml-1H9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="512-FQ-exL">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyTableViewCell" rowHeight="100" id="pVL-FV-DNK" customClass="MyTableViewCell" customModule="reviewEx01" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pVL-FV-DNK" id="evo-gA-CRd">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NGk-R7-v7t">
+                                                    <rect key="frame" x="20" y="5" width="90" height="90"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MfT-ZE-BbR">
+                                                    <rect key="frame" x="118" y="5" width="284" height="36"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fJ-S6-6Ya">
+                                                    <rect key="frame" x="118" y="49" width="284" height="40"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="filled" title="탭해서 보러가기"/>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="artImageView" destination="NGk-R7-v7t" id="L39-n9-yfU"/>
+                                            <outlet property="btnYoutube" destination="2fJ-S6-6Ya" id="H8q-nu-JQu"/>
+                                            <outlet property="labelArt" destination="MfT-ZE-BbR" id="vdh-MH-IdN"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="4lk-bx-GUh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="512-FQ-exL" firstAttribute="leading" secondItem="4lk-bx-GUh" secondAttribute="leading" id="M5J-uf-ydd"/>
+                            <constraint firstItem="512-FQ-exL" firstAttribute="trailing" secondItem="4lk-bx-GUh" secondAttribute="trailing" id="XFy-Ls-iNm"/>
+                            <constraint firstItem="512-FQ-exL" firstAttribute="bottom" secondItem="4lk-bx-GUh" secondAttribute="bottom" id="svo-hg-lvF"/>
+                            <constraint firstItem="512-FQ-exL" firstAttribute="top" secondItem="4lk-bx-GUh" secondAttribute="top" id="v3t-XO-HGX"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="qmH-BK-WJ8"/>
+                    <connections>
+                        <outlet property="mytableView" destination="512-FQ-exL" id="7d5-FJ-lON"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8TU-xE-S4H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3470" y="774"/>
+            <point key="canvasLocation" x="3469.5652173913045" y="773.4375"/>
         </scene>
     </scenes>
     <resources>

@@ -17,6 +17,8 @@
 		5DA7BC9A27E78AE800329FBF /* music1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DA7BC9927E78AE800329FBF /* music1.mp3 */; };
 		5DA7BC9C27E8DEA300329FBF /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7BC9B27E8DEA300329FBF /* MyCollectionViewCell.swift */; };
 		5DA7BC9E27E8DF5A00329FBF /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7BC9D27E8DF5A00329FBF /* CollectionViewController.swift */; };
+		5DA7BCA027EA49F000329FBF /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7BC9F27EA49F000329FBF /* MyTableViewCell.swift */; };
+		5DA7BCA227EA4AE200329FBF /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7BCA127EA4AE200329FBF /* MyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		5DA7BC9927E78AE800329FBF /* music1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music1.mp3; sourceTree = "<group>"; };
 		5DA7BC9B27E8DEA300329FBF /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		5DA7BC9D27E8DF5A00329FBF /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		5DA7BC9F27EA49F000329FBF /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		5DA7BCA127EA4AE200329FBF /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				5DA7BC8127E772F400329FBF /* SceneDelegate.swift */,
 				5DA7BC8327E772F500329FBF /* ViewController.swift */,
 				5DA7BC8527E772F500329FBF /* Main.storyboard */,
+				5DA7BCA127EA4AE200329FBF /* MyTableViewController.swift */,
+				5DA7BC9F27EA49F000329FBF /* MyTableViewCell.swift */,
 				5DA7BC9D27E8DF5A00329FBF /* CollectionViewController.swift */,
 				5DA7BC9B27E8DEA300329FBF /* MyCollectionViewCell.swift */,
 				5DA7BC9527E781A800329FBF /* MusicViewController.swift */,
@@ -151,8 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DA7BCA027EA49F000329FBF /* MyTableViewCell.swift in Sources */,
 				5DA7BC9E27E8DF5A00329FBF /* CollectionViewController.swift in Sources */,
 				5DA7BC9627E781A800329FBF /* MusicViewController.swift in Sources */,
+				5DA7BCA227EA4AE200329FBF /* MyTableViewController.swift in Sources */,
 				5DA7BC9C27E8DEA300329FBF /* MyCollectionViewCell.swift in Sources */,
 				5DA7BC8427E772F500329FBF /* ViewController.swift in Sources */,
 				5DA7BC8027E772F400329FBF /* AppDelegate.swift in Sources */,
