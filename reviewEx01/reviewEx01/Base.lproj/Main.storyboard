@@ -136,6 +136,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vLb-8v-XPO">
+                                <rect key="frame" x="356" y="88" width="50" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="sidebar.right" catalog="system">
+                                    <color key="baseBackgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="F7N-bs-cIr" kind="show" id="cMZ-Ca-2ay"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="EcG-ai-WuZ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -151,6 +162,31 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5fX-bf-Cg8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3470" y="-591"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="MHC-px-VRH">
+            <objects>
+                <viewController id="7It-Fa-QP2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9dh-EM-8d2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SideMenu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRg-ab-0bp">
+                                <rect key="frame" x="20" y="93" width="151" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bFl-JH-h6k"/>
+                        <color key="backgroundColor" systemColor="systemGray2Color"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="B69-NW-QpM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aCx-Gv-JC9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5428.985507246377" y="-591.29464285714278"/>
         </scene>
         <!--Collection View Controller-->
         <scene sceneID="nRg-Fy-8RR">
@@ -292,13 +328,36 @@
             </objects>
             <point key="canvasLocation" x="3469.5652173913045" y="773.4375"/>
         </scene>
+        <!--Side Menu Navigation Controller-->
+        <scene sceneID="NOQ-3m-fHQ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="F7N-bs-cIr" customClass="SideMenuNavigationController" customModule="SideMenu" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="Jke-HR-Chh"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2Jm-dY-uMJ">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7It-Fa-QP2" kind="relationship" relationship="rootViewController" id="NkO-WI-aq8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tK5-wX-k0y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4518.840579710145" y="-591.29464285714278"/>
+        </scene>
     </scenes>
     <resources>
         <image name="airplayvideo" catalog="system" width="128" height="98"/>
         <image name="image2" width="928" height="938"/>
         <image name="playpause.fill" catalog="system" width="128" height="70"/>
+        <image name="sidebar.right" catalog="system" width="128" height="93"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
