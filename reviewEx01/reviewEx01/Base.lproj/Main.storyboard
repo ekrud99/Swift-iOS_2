@@ -328,10 +328,10 @@
             </objects>
             <point key="canvasLocation" x="3469.5652173913045" y="773.4375"/>
         </scene>
-        <!--Side Menu Navigation Controller-->
+        <!--My Side Menu Navigation Controller-->
         <scene sceneID="NOQ-3m-fHQ">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="F7N-bs-cIr" customClass="SideMenuNavigationController" customModule="SideMenu" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="F7N-bs-cIr" customClass="MySideMenuNavigationController" customModule="reviewEx01" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="Jke-HR-Chh"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="2Jm-dY-uMJ">
