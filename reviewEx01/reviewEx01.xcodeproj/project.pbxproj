@@ -20,6 +20,7 @@
 		5DA7BCA027EA49F000329FBF /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7BC9F27EA49F000329FBF /* MyTableViewCell.swift */; };
 		5DA7BCA227EA4AE200329FBF /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7BCA127EA4AE200329FBF /* MyTableViewController.swift */; };
 		5DF3CDBA27ECBC21000C3D03 /* MySideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF3CDB927ECBC21000C3D03 /* MySideMenuNavigationController.swift */; };
+		5DF3CDBC27EF5F63000C3D03 /* SidemenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF3CDBB27EF5F63000C3D03 /* SidemenuViewController.swift */; };
 		E0D4A1555BF47DF69A8FE5F9 /* Pods_reviewEx01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64670104871F1818F949A3CF /* Pods_reviewEx01.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		5DA7BC9F27EA49F000329FBF /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 		5DA7BCA127EA4AE200329FBF /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 		5DF3CDB927ECBC21000C3D03 /* MySideMenuNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySideMenuNavigationController.swift; sourceTree = "<group>"; };
+		5DF3CDBB27EF5F63000C3D03 /* SidemenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidemenuViewController.swift; sourceTree = "<group>"; };
 		64670104871F1818F949A3CF /* Pods_reviewEx01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reviewEx01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E6FED3ABBE1A90F902E7854 /* Pods-reviewEx01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reviewEx01.debug.xcconfig"; path = "Target Support Files/Pods-reviewEx01/Pods-reviewEx01.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +84,7 @@
 				5DA7BC8127E772F400329FBF /* SceneDelegate.swift */,
 				5DA7BC8327E772F500329FBF /* ViewController.swift */,
 				5DA7BC8527E772F500329FBF /* Main.storyboard */,
+				5DF3CDBB27EF5F63000C3D03 /* SidemenuViewController.swift */,
 				5DF3CDB927ECBC21000C3D03 /* MySideMenuNavigationController.swift */,
 				5DA7BCA127EA4AE200329FBF /* MyTableViewController.swift */,
 				5DA7BC9F27EA49F000329FBF /* MyTableViewCell.swift */,
@@ -228,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DF3CDBC27EF5F63000C3D03 /* SidemenuViewController.swift in Sources */,
 				5DA7BCA027EA49F000329FBF /* MyTableViewCell.swift in Sources */,
 				5DA7BC9E27E8DF5A00329FBF /* CollectionViewController.swift in Sources */,
 				5DA7BC9627E781A800329FBF /* MusicViewController.swift in Sources */,

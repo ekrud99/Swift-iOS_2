@@ -163,10 +163,10 @@
             </objects>
             <point key="canvasLocation" x="3470" y="-591"/>
         </scene>
-        <!--View Controller-->
+        <!--Sidemenu View Controller-->
         <scene sceneID="MHC-px-VRH">
             <objects>
-                <viewController id="7It-Fa-QP2" sceneMemberID="viewController">
+                <viewController id="7It-Fa-QP2" customClass="SidemenuViewController" customModule="reviewEx01" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9dh-EM-8d2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -178,6 +178,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xeb-2V-wSP">
+                                <rect key="frame" x="20" y="204" width="114" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Lyrics"/>
+                                <connections>
+                                    <action selector="onBtnLyrics:" destination="7It-Fa-QP2" eventType="touchUpInside" id="Zzg-TA-2Jd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bFl-JH-h6k"/>
                         <color key="backgroundColor" systemColor="systemGray2Color"/>
@@ -187,6 +196,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aCx-Gv-JC9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5428.985507246377" y="-591.29464285714278"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="XkH-C8-O0P">
+            <objects>
+                <viewController storyboardIdentifier="LyricsVC" id="r2P-6i-FJD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MBK-0T-y7E">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="fcy-w5-Q9R"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w7C-xB-LHx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6094" y="-591"/>
         </scene>
         <!--Collection View Controller-->
         <scene sceneID="nRg-Fy-8RR">
