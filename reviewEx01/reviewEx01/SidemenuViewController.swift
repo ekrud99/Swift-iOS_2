@@ -22,6 +22,6 @@ class SidemenuViewController: UIViewController {
         appDelegate.mainVC?.gotoLyricsView()
     }
     
-   
+
 
 }

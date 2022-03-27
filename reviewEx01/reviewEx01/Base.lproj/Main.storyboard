@@ -43,7 +43,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Videos"/>
                                 <connections>
-                                    <segue destination="fBw-jM-1ie" kind="show" id="KqH-fT-ddA"/>
+                                    <segue destination="9KP-2l-Vwo" kind="show" id="KqH-fT-ddA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B9H-JW-xUA">
@@ -197,20 +197,81 @@
             </objects>
             <point key="canvasLocation" x="5428.985507246377" y="-591.29464285714278"/>
         </scene>
-        <!--View Controller-->
+        <!--Lyrics View Controller-->
         <scene sceneID="XkH-C8-O0P">
             <objects>
-                <viewController storyboardIdentifier="LyricsVC" id="r2P-6i-FJD" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LyricsVC" id="r2P-6i-FJD" customClass="LyricsViewController" customModule="reviewEx01" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MBK-0T-y7E">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lyrics" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7So-jY-WBd">
+                                <rect key="frame" x="153" y="44" width="108" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="neA-SC-8tR">
+                                <rect key="frame" x="0.0" y="93" width="414" height="769"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">Hmm, yeah, hmm
+텅 빈 회색 빛 거린 참 허전해
+쓸쓸한 기분에 유리창을 열어
+내민 두 손위로 떨어진 빗방울
+가득 고이는 그리움 나의 맘에 흘러
+왠지 네가 보고픈 밤
+차오르는 눈물
+떠오르는 나의 맘 속
+비가 오면 내리는 기억에
+번지는 아픔에
+흠뻑 쏟아지는 너를 보다
+선명했던 그 시간에 멈춘 채
+추억에 젖은 채
+아름다웠던 너를 그려 in the rain
+Hmm
+길었던 참 눈이 부셨던 계절도
+사진첩 속에 얼룩져
+색이 바래질까?
+점점 깊어가는 이 밤
+잊지 못한 약속
+따뜻했던 품도 안녕
+비가 오면 내리는 기억에
+번지는 아픔에
+흠뻑 쏟아지는 너를 보다
+선명했던 그 시간에 멈춘 채
+추억에 젖은 채
+아름다웠던 너를 그려
+In the rain
+흑백뿐인 세상 속 한줄기의 빛이 돼준 너
+(Rain) 비가 되어 다가와, 내 영혼을 환히 밝혀줘
+Doo-doo-doo-doo-doo-doo-doo
+Doo-doo-doo-doo-doo-doo-doo
+Doo-doo-doo-doo-doo-doo-doo
+Doo-doo-doo-doo-doo-doo-doo
+Doo-doo-doo-doo-doo-doo-doo
+Doo-doo-doo-doo-doo-doo-doo
+Oh, oh, oh, oh, oh, whoa
+우산 아래 나직했던 속삭임
+Ooh, ooh, 가슴 한 켠에 퍼져 네가 들려
+오늘 하루 내 안부를 묻듯이
+편안한 빗소리
+아련히 물든 기억 너란 빗속에
+Ooh, ooh, rain
+Ooh, dreaming in the rain</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="fcy-w5-Q9R"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w7C-xB-LHx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6094" y="-591"/>
+            <point key="canvasLocation" x="6092.753623188406" y="-591.29464285714278"/>
         </scene>
         <!--Collection View Controller-->
         <scene sceneID="nRg-Fy-8RR">
@@ -350,7 +411,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8TU-xE-S4H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3469.5652173913045" y="773.4375"/>
+            <point key="canvasLocation" x="4379.7101449275369" y="773.4375"/>
+        </scene>
+        <!--Art View Controller-->
+        <scene sceneID="DFX-38-nUO">
+            <objects>
+                <viewController storyboardIdentifier="art" useStoryboardIdentifierAsRestorationIdentifier="YES" id="wft-Pw-MDs" customClass="artViewController" customModule="reviewEx01" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="y6S-ch-CGG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Lje-3V-egG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fJT-DM-cs9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X0q-41-KyB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5078.2608695652179" y="742.63392857142856"/>
         </scene>
         <!--My Side Menu Navigation Controller-->
         <scene sceneID="NOQ-3m-fHQ">
@@ -371,12 +448,34 @@
             </objects>
             <point key="canvasLocation" x="4518.840579710145" y="-591.29464285714278"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="txT-Aa-Px2">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9KP-2l-Vwo" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="eQD-LB-Zaj"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="PBG-8I-JUd">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="fBw-jM-1ie" kind="relationship" relationship="rootViewController" id="0ig-Wa-oLX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kIN-eF-Mlo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3469.5652173913045" y="773.4375"/>
+        </scene>
     </scenes>
     <resources>
         <image name="airplayvideo" catalog="system" width="128" height="98"/>
         <image name="image2" width="928" height="938"/>
         <image name="playpause.fill" catalog="system" width="128" height="70"/>
         <image name="sidebar.right" catalog="system" width="128" height="93"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

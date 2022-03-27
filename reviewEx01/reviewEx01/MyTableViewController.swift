@@ -9,7 +9,7 @@ import UIKit
 
 class MyTableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    
+    let appDelegate = UIApplication.shared.delegate as! AppDelegate
 
     @IBOutlet weak var mytableView: UITableView!
     
@@ -25,6 +25,7 @@ class MyTableViewController: UIViewController, UITableViewDelegate, UITableViewD
         
         mytableView.delegate = self
         mytableView.dataSource = self
+        
 
     }
     
@@ -48,6 +49,14 @@ class MyTableViewController: UIViewController, UITableViewDelegate, UITableViewD
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("선택된 셀의 위치(section): ", indexPath.section)
         print("선택된 셀의 위치(row): ", indexPath.row)
+        switch indexPath.row{
+        case 0:
+            let newVC = self.storyboard?.instantiateViewController(withIdentifier: "art") as! artViewController
+            self.navigationController?.pushViewController(newVC, animated: true)
+        default:
+            return
+            
+        }
     }
 
     

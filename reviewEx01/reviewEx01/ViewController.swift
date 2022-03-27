@@ -12,9 +12,14 @@ class ViewController: UIViewController {
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        appDelegate.mainVC = self
     }
 
+    func gotoLyricsView(){
+        let lyricsVC = self.storyboard?.instantiateViewController(withIdentifier: "LyricsVC") as! LyricsViewController
+        self.navigationController?.pushViewController(lyricsVC, animated: true)
+    }
 
 }
 
