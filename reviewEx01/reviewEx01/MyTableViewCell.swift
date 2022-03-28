@@ -13,7 +13,8 @@ class MyTableViewCell: UITableViewCell {
     
     @IBOutlet weak var labelArt: UILabel!
     
-    @IBOutlet weak var btnYoutube: UIButton!
+    @IBOutlet weak var labelArtist: UILabel!
+    
     
     
 

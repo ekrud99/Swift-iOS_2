@@ -37,6 +37,7 @@ class MyTableViewController: UIViewController, UITableViewDelegate, UITableViewD
         let cell = self.mytableView.dequeueReusableCell(withIdentifier: "MyTableViewCell", for: indexPath) as! MyTableViewCell // 메모리 위해 셀 재사용
         cell.artImageView?.image = UIImage(named: images[indexPath.row])
         cell.labelArt.text = arts[indexPath.row]
+        cell.labelArtist.text = names[indexPath.row]
         
         cell.selectionStyle = .none
         
@@ -52,6 +53,23 @@ class MyTableViewController: UIViewController, UITableViewDelegate, UITableViewD
         switch indexPath.row{
         case 0:
             let newVC = self.storyboard?.instantiateViewController(withIdentifier: "art") as! artViewController
+            appDelegate.ytUrl = "eHir_vB1RUI"
+            self.navigationController?.pushViewController(newVC, animated: true)
+        case 1:
+            let newVC = self.storyboard?.instantiateViewController(withIdentifier: "art") as! artViewController
+            appDelegate.ytUrl = "sqgxcCjD04s"
+            self.navigationController?.pushViewController(newVC, animated: true)
+        case 2:
+            let newVC = self.storyboard?.instantiateViewController(withIdentifier: "art") as! artViewController
+            appDelegate.ytUrl = "WPdWvnAAurg"
+            self.navigationController?.pushViewController(newVC, animated: true)
+        case 3:
+            let newVC = self.storyboard?.instantiateViewController(withIdentifier: "art") as! artViewController
+            appDelegate.ytUrl = "NaFd8ucHLuo"
+            self.navigationController?.pushViewController(newVC, animated: true)
+        case 4:
+            let newVC = self.storyboard?.instantiateViewController(withIdentifier: "art") as! artViewController
+            appDelegate.ytUrl = "gset79KMmt0"
             self.navigationController?.pushViewController(newVC, animated: true)
         default:
             return

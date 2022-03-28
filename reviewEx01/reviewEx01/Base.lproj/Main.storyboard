@@ -216,7 +216,7 @@
                                 <rect key="frame" x="0.0" y="93" width="414" height="769"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">Hmm, yeah, hmm
+                                <string key="text">Hmm, yeah, hmm
 텅 빈 회색 빛 거린 참 허전해
 쓸쓸한 기분에 유리창을 열어
 내민 두 손위로 떨어진 빗방울
@@ -259,7 +259,7 @@ Ooh, ooh, 가슴 한 켠에 퍼져 네가 들려
 편안한 빗소리
 아련히 물든 기억 너란 빗속에
 Ooh, ooh, rain
-Ooh, dreaming in the rain</mutableString>
+Ooh, dreaming in the rain</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -378,18 +378,19 @@ Ooh, dreaming in the rain</mutableString>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fJ-S6-6Ya">
-                                                    <rect key="frame" x="118" y="49" width="284" height="40"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="artist" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hfz-9H-bPN">
+                                                    <rect key="frame" x="118" y="49" width="284" height="46"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="filled" title="탭해서 보러가기"/>
-                                                </button>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="artImageView" destination="NGk-R7-v7t" id="L39-n9-yfU"/>
-                                            <outlet property="btnYoutube" destination="2fJ-S6-6Ya" id="H8q-nu-JQu"/>
                                             <outlet property="labelArt" destination="MfT-ZE-BbR" id="vdh-MH-IdN"/>
+                                            <outlet property="labelArtist" destination="hfz-9H-bPN" id="JM7-eX-0V3"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -420,10 +421,31 @@ Ooh, dreaming in the rain</mutableString>
                     <view key="view" contentMode="scaleToFill" id="y6S-ch-CGG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Watch on Youtube" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mLq-L3-auV">
+                                <rect key="frame" x="182" y="74" width="212" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uif-G5-atP" customClass="YTPlayerView">
+                                <rect key="frame" x="20" y="142" width="374" height="238"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ytimage" translatesAutoresizingMaskIntoConstraints="NO" id="d0A-pp-daJ">
+                                <rect key="frame" x="8" y="66" width="177" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Lje-3V-egG"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="fJT-DM-cs9"/>
+                    <connections>
+                        <outlet property="youtubePlayer" destination="Uif-G5-atP" id="9w8-j1-JJ4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X0q-41-KyB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -473,6 +495,7 @@ Ooh, dreaming in the rain</mutableString>
         <image name="image2" width="928" height="938"/>
         <image name="playpause.fill" catalog="system" width="128" height="70"/>
         <image name="sidebar.right" catalog="system" width="128" height="93"/>
+        <image name="ytimage" width="200" height="58"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
