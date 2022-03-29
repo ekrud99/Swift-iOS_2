@@ -438,9 +438,18 @@ Ooh, dreaming in the rain</string>
                                 <rect key="frame" x="8" y="66" width="177" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrowshape.turn.up.backward.2" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="cCD-4a-sRx">
+                                <rect key="frame" x="20" y="465" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Lje-3V-egG"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Wzf-ig-CKR" appends="YES" id="Wrc-nh-3ZI"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="fJT-DM-cs9"/>
                     <connections>
@@ -448,8 +457,9 @@ Ooh, dreaming in the rain</string>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X0q-41-KyB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Wzf-ig-CKR"/>
             </objects>
-            <point key="canvasLocation" x="5078.2608695652179" y="742.63392857142856"/>
+            <point key="canvasLocation" x="5143" y="773"/>
         </scene>
         <!--My Side Menu Navigation Controller-->
         <scene sceneID="NOQ-3m-fHQ">
@@ -492,6 +502,7 @@ Ooh, dreaming in the rain</string>
     </scenes>
     <resources>
         <image name="airplayvideo" catalog="system" width="128" height="98"/>
+        <image name="arrowshape.turn.up.backward.2" catalog="system" width="128" height="86"/>
         <image name="image2" width="928" height="938"/>
         <image name="playpause.fill" catalog="system" width="128" height="70"/>
         <image name="sidebar.right" catalog="system" width="128" height="93"/>

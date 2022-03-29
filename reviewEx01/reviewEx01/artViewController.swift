@@ -12,6 +12,7 @@ class artViewController: UIViewController {
 
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
     @IBOutlet weak var youtubePlayer: YTPlayerView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         let id: String = appDelegate.ytUrl!
