@@ -1,0 +1,6 @@
+framework module Pods_reviewEx01 {
+  umbrella header "Pods-reviewEx01-umbrella.h"
+
+  export *
+  module * { export * }
+}

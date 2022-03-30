@@ -1,0 +1,20 @@
+PODS:
+  - SideMenu (6.5.0)
+  - youtube-ios-player-helper (0.1.6)
+
+DEPENDENCIES:
+  - SideMenu (~> 6.0)
+  - youtube-ios-player-helper (~> 0.1.4)
+
+SPEC REPOS:
+  trunk:
+    - SideMenu
+    - youtube-ios-player-helper
+
+SPEC CHECKSUMS:
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+  youtube-ios-player-helper: 21ab92db027c7ff86cb17a3843a3f6eafc8158d2
+
+PODFILE CHECKSUM: 45fab104dd1d55fa31803afd2315d043bad20179
+
+COCOAPODS: 1.11.3
