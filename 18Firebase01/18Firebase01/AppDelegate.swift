@@ -1,29 +1,25 @@
 //
 //  AppDelegate.swift
-//  18Firebase
+//  18Firebase01
 //
-//  Created by 최다경 on 2022/03/30.
+//  Created by 최다경 on 2022/03/31.
 //
 
 import UIKit
 import Firebase
-import FirebaseCore
-
-
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    
-    //앱 구동시 맨 처음 호출되는 함수
-    //파이어베이스 초기화
-    var window: UIWindow?
 
-    
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //앱 구동시 맨 처음 호출되는 함수
+        //파이어베이스 초기화
         FirebaseApp.configure()
+        
         return true
     }
 

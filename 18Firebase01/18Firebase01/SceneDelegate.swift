@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  18Firebase
+//  18Firebase01
 //
-//  Created by 최다경 on 2022/03/30.
+//  Created by 최다경 on 2022/03/31.
 //
 
 import UIKit
