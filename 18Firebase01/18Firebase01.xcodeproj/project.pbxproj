@@ -15,6 +15,7 @@
 		5D02178A27F4B28F005EB7B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D02178827F4B28F005EB7B2 /* LaunchScreen.storyboard */; };
 		5D02179227F4B508005EB7B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D02179127F4B508005EB7B2 /* GoogleService-Info.plist */; };
 		5D02179527F61CF4005EB7B2 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D02179427F61CF4005EB7B2 /* ListViewController.swift */; };
+		5D02179727F89F3B005EB7B2 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D02179627F89F3B005EB7B2 /* UploadViewController.swift */; };
 		9B69AAB10DB483FBC370663E /* Pods_18Firebase01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2224D14A91BB426E7E33DEAB /* Pods_18Firebase01.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		5D02178B27F4B28F005EB7B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D02179127F4B508005EB7B2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5D02179427F61CF4005EB7B2 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		5D02179627F89F3B005EB7B2 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				5D02177F27F4B28D005EB7B2 /* SceneDelegate.swift */,
 				5D02178127F4B28D005EB7B2 /* ViewController.swift */,
 				5D02178327F4B28D005EB7B2 /* Main.storyboard */,
+				5D02179627F89F3B005EB7B2 /* UploadViewController.swift */,
 				5D02179427F61CF4005EB7B2 /* ListViewController.swift */,
 				5D02178627F4B28F005EB7B2 /* Assets.xcassets */,
 				5D02178827F4B28F005EB7B2 /* LaunchScreen.storyboard */,
@@ -214,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D02178227F4B28D005EB7B2 /* ViewController.swift in Sources */,
+				5D02179727F89F3B005EB7B2 /* UploadViewController.swift in Sources */,
 				5D02177E27F4B28D005EB7B2 /* AppDelegate.swift in Sources */,
 				5D02179527F61CF4005EB7B2 /* ListViewController.swift in Sources */,
 				5D02178027F4B28D005EB7B2 /* SceneDelegate.swift in Sources */,
