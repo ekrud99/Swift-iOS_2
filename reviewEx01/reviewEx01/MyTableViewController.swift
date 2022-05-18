@@ -48,6 +48,9 @@ class MyTableViewController: UIViewController, UITableViewDelegate, UITableViewD
         return 100
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        //tableview에서 index를 가져와 해당 cell 클릭 시 유튜브 링크 연결
+        //youtube url의 = 뒤의 주소 입력해줌
+        //switch문으로 전달받은 row를 통해 case 분리
         print("선택된 셀의 위치(section): ", indexPath.section)
         print("선택된 셀의 위치(row): ", indexPath.row)
         switch indexPath.row{
