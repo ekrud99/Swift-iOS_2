@@ -41,6 +41,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             if let editedImage = info[UIImagePickerController.InfoKey.editedImage] as? UIImage{
                 imageView.image = editedImage
                 captureImage = editedImage
+                print("mediatype: ", mediaType)
             }
             else if let originalImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage{
                 imageView.image = originalImage
