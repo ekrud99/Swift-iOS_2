@@ -10,6 +10,7 @@ import MobileCoreServices//포토앨범, 카메라 기능 추가
 
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
+    let appDelegate = UIApplication.shared.delegate as! AppDelegate
     @IBOutlet weak var imageView: UIImageView!
     let imagePickerVC: UIImagePickerController! = UIImagePickerController()
     //선택된 이미지 데이터
@@ -17,6 +18,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        imageView.image = appDelegate.img
         // Do any additional setup after loading the view.
     }
 
@@ -40,11 +42,13 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         if(mediaType.isEqual( kUTTypeImage as NSString as String)){
             if let editedImage = info[UIImagePickerController.InfoKey.editedImage] as? UIImage{
                 imageView.image = editedImage
+                appDelegate.img = editedImage
                 captureImage = editedImage
-                print("mediatype: ", mediaType)
+                print("editedImage: ", editedImage)
             }
             else if let originalImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage{
                 imageView.image = originalImage
+                appDelegate.img = originalImage
                 captureImage = originalImage
             }
             //피커뷰 창을 닫아줌
