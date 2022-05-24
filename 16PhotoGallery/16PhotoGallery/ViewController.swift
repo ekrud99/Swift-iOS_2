@@ -12,8 +12,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
     @IBOutlet weak var imageView: UIImageView!
-    let imagePickerVC: UIImagePickerController! = UIImagePickerController()
-    //선택된 이미지 데이터
+    @IBOutlet weak var nameTextField: UITextField!
+    
+    let imagePickerVC: UIImagePickerController! = UIImagePickerController() //선택된 이미지 데이터
     var captureImage:UIImage!
     
     override func viewDidLoad() {
@@ -36,6 +37,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }else{
         print("error")
     }
+        appDelegate.picname = nameTextField.text
 }
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         let mediaType = info[UIImagePickerController.InfoKey.mediaType] as! String
