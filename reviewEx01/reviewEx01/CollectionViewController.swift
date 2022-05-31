@@ -10,12 +10,10 @@ import UIKit
 class CollectionViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
     
-
+    let appDelegate = UIApplication.shared.delegate as! AppDelegate
     @IBOutlet weak var collectionView: UICollectionView!
     
-    let names:[String] = ["TaeYeon", "IU", "AESPA", "GAYLE", "Sia"]
-    let arts:[String] = ["Rain", "Strawberry Moon", "Savage", "abcdefu", "Snowman"]
-    let images:[String] = ["image2", "image3", "image4", "image5", "image6"]
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,14 +27,14 @@ class CollectionViewController: UIViewController, UICollectionViewDataSource, UI
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = self.collectionView.dequeueReusableCell(withReuseIdentifier: "myCollectionViewCell", for: indexPath) as! MyCollectionViewCell
         //collectionviewcell의 identifier 등록해줘야함
-        cell.artisImageView?.image = UIImage(named: images[indexPath.row])
-        cell.labelName?.text = names[indexPath.row]
-        cell.labelArt?.text = arts[indexPath.row]
+        cell.artisImageView?.image = UIImage(named: appDelegate.images[indexPath.row])
+        cell.labelName?.text = appDelegate.names[indexPath.row]
+        cell.labelArt?.text = appDelegate.arts[indexPath.row]
         return cell
     }
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return names.count
+        return appDelegate.names.count
     }
     func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
         print("item selected", indexPath.row)

@@ -16,9 +16,11 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     let imagePickerVC: UIImagePickerController! = UIImagePickerController() //선택된 이미지 데이터
     var captureImage:UIImage!
-    
+    var imgStr: String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(appDelegate.img)
+        //Optional(<UIImage:0x600002131170 anonymous {1170, 776} renderingMode=automatic>)
         imageView.image = appDelegate.img
         // Do any additional setup after loading the view.
     }

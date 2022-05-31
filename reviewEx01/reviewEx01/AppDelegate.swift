@@ -14,6 +14,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var mySidemenu: MySideMenuNavigationController? = nil
     var mainVC: ViewController? = nil
     var ytUrl: String? = nil
+    
+    let names:[String] = ["TaeYeon", "IU", "AESPA", "GAYLE", "Sia"]
+    let arts:[String] = ["Rain", "Strawberry Moon", "Savage", "abcdefu", "Snowman"]
+    let images:[String] = ["image2", "image3", "image4", "image5", "image6"]
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
