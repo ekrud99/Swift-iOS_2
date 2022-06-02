@@ -65,5 +65,18 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 
 }
     
+public extension UIImage
+{
+     func base64Encode() -> String?
+    {
+        guard let imageData = self.pngData() else
+        {
+            return nil
+        }
 
+        let fullBase64String = "data:image/png;base64"
+
+        return fullBase64String
+    }
+}
 
