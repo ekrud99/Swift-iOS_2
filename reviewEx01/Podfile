@@ -8,5 +8,6 @@ target 'reviewEx01' do
   # Pods for reviewEx01
   pod 'SideMenu', '~> 6.0'
   pod 'youtube-ios-player-helper', '~> 0.1.4'
+  pod 'MBRadioCheckboxButton'
   
 end

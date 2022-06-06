@@ -7,97 +7,139 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		057B453F4AE14D10EA77D38FA1A0B8FB /* SideMenuPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8F76A19C872629238709E59271766 /* SideMenuPresentationController.swift */; };
-		0EE3CBA6A35101DB72C3D5CAB674CFFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		1F0DDBBAF86A028D6D60A7E10B4D3634 /* SideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E33381CE3BCB8C91E88CE02ACA47ECB2 /* SideMenu-dummy.m */; };
-		2BB81ED0497020A9DA87C151A09E4F10 /* Pods-reviewEx01-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40A684FC8F3E5C5457005CA2EBCA8E3F /* Pods-reviewEx01-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3817F4830A10E51D20B72530EF6A56D2 /* SideMenuTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9B5990034CBACBD837FF1975E2B90B /* SideMenuTransitionController.swift */; };
-		4C034C2E0BB08AB6504BC382E95BEE19 /* youtube-ios-player-helper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFE3BBD092BED880EFCDED9ED1840C24 /* youtube-ios-player-helper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5587C359D9C8789950E7F6585C2292E7 /* SideMenuPresentationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1913886F3DDC74AB7D4E269C76437BEE /* SideMenuPresentationStyle.swift */; };
-		6F5FA64DDE44104D3162784ED9AD3226 /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAB811E2A3D11D5270503DDE3EC6455 /* YTPlayerView.m */; };
-		74106BDED4B8B2281DFE4BE5E109D847 /* Initializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925BD31E4E7040E419B2F5659E552628 /* Initializable.swift */; };
+		057B453F4AE14D10EA77D38FA1A0B8FB /* SideMenuPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88982FFDC7A1B2F8B971621D92C30F99 /* SideMenuPresentationController.swift */; };
+		11598DBE663CB3125BBD49F6546B495E /* Pods-reviewEx01-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40A684FC8F3E5C5457005CA2EBCA8E3F /* Pods-reviewEx01-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1506A50224587430A19AE54C219F4CD9 /* CheckBoxColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB12FC79F1B6D83661B25A512419FF5 /* CheckBoxColor.swift */; };
+		1F0DDBBAF86A028D6D60A7E10B4D3634 /* SideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE60185BF1A8F813C62612A2B82DD2A /* SideMenu-dummy.m */; };
+		23B1B3EF1DE0EEABC738100054F62ECF /* RadioButtonContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D717BF0A6EFE0C762B028DC79CFEBB /* RadioButtonContainer.swift */; };
+		2F262E8114A9671C88DA9E3A2B2C5AB8 /* Pods-reviewEx01-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD589E079B1A817226D4A36830A387 /* Pods-reviewEx01-dummy.m */; };
+		3559CB444E9476521EFC53162D3BA759 /* RadioButtonCircleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD1331D59C319516ED096CABB94FA5C /* RadioButtonCircleStyle.swift */; };
+		3817F4830A10E51D20B72530EF6A56D2 /* SideMenuTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F75D53FF629557BA3B1FD41757DD2E /* SideMenuTransitionController.swift */; };
+		3FD86BDF5CF8B360C42AADF88D79576A /* CheckboxButtonContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5853115E017EE9894950CB81EBDF83ED /* CheckboxButtonContainer.swift */; };
+		4C034C2E0BB08AB6504BC382E95BEE19 /* youtube-ios-player-helper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F3FAFB007537E575395A79C8E3446F /* youtube-ios-player-helper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5418927E483D4FF27688102720414BD3 /* MBRadioCheckboxButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C56AF7918A358AE7E373100DD74987 /* MBRadioCheckboxButton-dummy.m */; };
+		5587C359D9C8789950E7F6585C2292E7 /* SideMenuPresentationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036AD3BABBEB599DC4A396B095E1B67 /* SideMenuPresentationStyle.swift */; };
+		6ED70AF94E1D948F55A1BBE24BC1E18A /* RadioCheckboxBaseContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB73C11FCDD1045C42D3D7C726BE4FBC /* RadioCheckboxBaseContainer.swift */; };
+		6F5FA64DDE44104D3162784ED9AD3226 /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 599D5EBBDC705AE9D4BF35A1E6A28DEE /* YTPlayerView.m */; };
+		74106BDED4B8B2281DFE4BE5E109D847 /* Initializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3703197FF7B655EC1DF57A984D6DDCCA /* Initializable.swift */; };
+		8261EB3F4FF0C888B04F23A7D0ABAC5F /* MBRadioCheckboxButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A8A9F85AF551F154A54C822720FB29C /* MBRadioCheckboxButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		887D7E546D6837CC964318D1B0C842D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		89D841B226ADB8F2EE319AC3EE50405F /* Pods-reviewEx01-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD589E079B1A817226D4A36830A387 /* Pods-reviewEx01-dummy.m */; };
-		8F06181F47B9D71CF77F97261BA6C452 /* YTPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 58C0C28D45C85CF3F4F0A26D0CB04908 /* YTPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E9F19E0120EA3C46967C28E637F52C8 /* SideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695B3FCFC0A45F2F0EFB79C6C45D0A14 /* SideMenuNavigationController.swift */; };
-		B804587E525773FCA9698855B2C752DC /* SideMenuAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81311C1400704B818A7CB2EDC2AA019 /* SideMenuAnimationController.swift */; };
-		BC9C2E663681EDDBFE985034DCC7AAAF /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90375747D35026FDD94CD793DF90DE1F /* UITableViewVibrantCell.swift */; };
-		BE79F903F87E7D5918C6414E6203743E /* Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE48339B5DB10A10352ACB7053E4A2AA /* Print.swift */; };
-		C7B8914DE47EC480669C6BE2850AE22A /* Assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C3229DDCBB12BFE0F357642B315FB427 /* Assets.bundle */; };
+		8F06181F47B9D71CF77F97261BA6C452 /* YTPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D684249416A5588863640DC63843221 /* YTPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ADED4F688110C1BBBF2B8DAA577A707 /* CheckboxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E0B2EDC9E3DE8EAA7676AD8901C10B /* CheckboxButton.swift */; };
+		9C333A6C461FE5AA4CE484D1A360CD7F /* CheckboxButtonContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD8A766BF862AF5CE23A897AB1F593B /* CheckboxButtonContainerView.swift */; };
+		9E9F19E0120EA3C46967C28E637F52C8 /* SideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2812B9AF39A38A583D3CCA2E8737799 /* SideMenuNavigationController.swift */; };
+		9FA4F1CCAEB88E3CAE81570A7EAB3A6B /* RadioButtonColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C53822B8D2E81DD66A452DD255B9F5 /* RadioButtonColor.swift */; };
+		A71CA360A99661E0EC2216BB82F75DA5 /* RadioCheckboxBaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB6BC97563B2DEA9F89FEECB4033703 /* RadioCheckboxBaseButton.swift */; };
+		B804587E525773FCA9698855B2C752DC /* SideMenuAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FFA350FD649FB16E7ABFE2C340C1B3 /* SideMenuAnimationController.swift */; };
+		BC9C2E663681EDDBFE985034DCC7AAAF /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675D9F0BAA66112FA544FFC8D5D75C65 /* UITableViewVibrantCell.swift */; };
+		BE79F903F87E7D5918C6414E6203743E /* Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C91B286EAC571B9B778C8B8E599C64C /* Print.swift */; };
+		C7B8914DE47EC480669C6BE2850AE22A /* Assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C25C447E23F9E8B2C6B56ECB101E1A2F /* Assets.bundle */; };
+		C98604B1D59F6D79730517A37CA2D729 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		CA924F339F03FD72F8D1905F3B27CF4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D3BE0026C39E4B360BBDA0D5C57DD25D /* Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A0E657E4B81007B5BEFF5563F676B7 /* Deprecations.swift */; };
-		DAD5950A205347FCDBD3751604472431 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC81394A327BFE9A6F642A6CF213B93B /* Protected.swift */; };
-		E1B11455CD1DA8868077BB5922433DF4 /* youtube-ios-player-helper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 790C7482B8E05FB467B282B6755DD96D /* youtube-ios-player-helper-dummy.m */; };
-		E56EEF71CC5AF0DA40228F2CA67B4BA0 /* SideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 836E1D94786AE8684A4C72D90103ACD9 /* SideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E709C98B763E8065628D8E88715E0BF8 /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07CD7CA3A1CB3E1984B4AA2A1B732AA /* SideMenuManager.swift */; };
-		E72252B09CC270B50217CA6AEABD620A /* SideMenuPushCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52CE676652282280897BC83CA2AEFBC /* SideMenuPushCoordinator.swift */; };
-		E97C7A323474D0205E872AE7BC773650 /* SideMenuInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897CA3D4D0EFB778D527150DA01E8A92 /* SideMenuInteractionController.swift */; };
-		F28D439429A375B6D4FCD037ED317CD6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F666C409E27852E75689967707AAC5 /* Extensions.swift */; };
+		D3BE0026C39E4B360BBDA0D5C57DD25D /* Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4170016C154FCF3345B57BE164B901F /* Deprecations.swift */; };
+		D66DD5EEDAC4A367E08DECFFE4006DF7 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE5D9ADAC933117D2CCA670CAE929D2 /* RadioButton.swift */; };
+		DAD5950A205347FCDBD3751604472431 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = A919C0FA0F218BDD6B3F6E411B2546D2 /* Protected.swift */; };
+		E1B11455CD1DA8868077BB5922433DF4 /* youtube-ios-player-helper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 245B6F6FD8CA7D8495C7E2A7B438807D /* youtube-ios-player-helper-dummy.m */; };
+		E56EEF71CC5AF0DA40228F2CA67B4BA0 /* SideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41B979A95778ACA53163466EEE88EDF7 /* SideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E709C98B763E8065628D8E88715E0BF8 /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE1EA5ED0F6D89058767E46E5282508 /* SideMenuManager.swift */; };
+		E72252B09CC270B50217CA6AEABD620A /* SideMenuPushCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83007E88CB75DEBA74FBE60B9D2F2946 /* SideMenuPushCoordinator.swift */; };
+		E97C7A323474D0205E872AE7BC773650 /* SideMenuInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A144FE0FE7B2CF360C10B35D9812C8DD /* SideMenuInteractionController.swift */; };
+		EB8A749587F2C4E2BA13F7D88E9EC710 /* RadioButtonContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6C818C6F3DF2E36398CE0F9BD798A /* RadioButtonContainerView.swift */; };
+		EBF728A69C9C501641662643EA6D04FF /* CheckboxLineStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC106510FA4022E859678DC7F6309AD5 /* CheckboxLineStyle.swift */; };
+		F28D439429A375B6D4FCD037ED317CD6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7F0112F919DE395B364D7431BFB03E /* Extensions.swift */; };
+		F8D48E6A3708835A22ED1185609E11A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BAD1794F38964185FB0A4C392798FB76 /* PBXContainerItemProxy */ = {
+		5CDAA409E1E3E62A7CE174179B822FCB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C4A0A7D8591B67FB75E2E8D215E3735B;
 			remoteInfo = SideMenu;
 		};
-		FBED3DDF20B1D02C13F557C1E25F502E /* PBXContainerItemProxy */ = {
+		6C72043C1A9012309BF60839C93CFAFF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D1A7AF186BE136DE56FD5699070589B8;
 			remoteInfo = "youtube-ios-player-helper";
 		};
+		96489FFF77FE99289914A72DBCE0583F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AB9C4135C214FAD2CB39E8241B20B94;
+			remoteInfo = MBRadioCheckboxButton;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0113348788D5E33375BEB866BCE2293A /* youtube-ios-player-helper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "youtube-ios-player-helper-Info.plist"; sourceTree = "<group>"; };
+		05B75FF3D840D12224E48C5703675923 /* SideMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.release.xcconfig; sourceTree = "<group>"; };
 		097E8B0CE3BA4BC2394AD7CE61F37EBA /* Pods-reviewEx01-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-reviewEx01-acknowledgements.plist"; sourceTree = "<group>"; };
 		0E3B308491FE9295FEFD08DE72FA88A2 /* Pods-reviewEx01 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-reviewEx01"; path = Pods_reviewEx01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1913886F3DDC74AB7D4E269C76437BEE /* SideMenuPresentationStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuPresentationStyle.swift; path = Pod/Classes/SideMenuPresentationStyle.swift; sourceTree = "<group>"; };
-		1CAB811E2A3D11D5270503DDE3EC6455 /* YTPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTPlayerView.m; path = Classes/YTPlayerView.m; sourceTree = "<group>"; };
-		1CF08B75321F82C935B63F761C657FD3 /* youtube-ios-player-helper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "youtube-ios-player-helper.debug.xcconfig"; sourceTree = "<group>"; };
+		136E18E56C73A84FA4531607E5A1CB6F /* MBRadioCheckboxButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBRadioCheckboxButton-Info.plist"; sourceTree = "<group>"; };
+		19261DA27479D582136537929EA37075 /* MBRadioCheckboxButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBRadioCheckboxButton.debug.xcconfig; sourceTree = "<group>"; };
+		1BE1EA5ED0F6D89058767E46E5282508 /* SideMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = Pod/Classes/SideMenuManager.swift; sourceTree = "<group>"; };
 		1CFD589E079B1A817226D4A36830A387 /* Pods-reviewEx01-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-reviewEx01-dummy.m"; sourceTree = "<group>"; };
 		1D4CF6926BA8F55F4C6F29A561A28FEC /* Pods-reviewEx01-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-reviewEx01-acknowledgements.markdown"; sourceTree = "<group>"; };
-		20BBCCD0B49C0D02081CA786A7CFA2DB /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
-		21D841B2A35F2381F7A24B019E3C169D /* SideMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.release.xcconfig; sourceTree = "<group>"; };
-		29DA4C4F0A4320E3076C02C74241E3E4 /* SideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SideMenu.modulemap; sourceTree = "<group>"; };
+		21FDE9AA62E81F6DF0111DB74A8211CC /* MBRadioCheckboxButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBRadioCheckboxButton.release.xcconfig; sourceTree = "<group>"; };
+		245B6F6FD8CA7D8495C7E2A7B438807D /* youtube-ios-player-helper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "youtube-ios-player-helper-dummy.m"; sourceTree = "<group>"; };
+		24F3FAFB007537E575395A79C8E3446F /* youtube-ios-player-helper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "youtube-ios-player-helper-umbrella.h"; sourceTree = "<group>"; };
+		2C50F1E76E8E9206C44147C0F07F8464 /* SideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SideMenu.modulemap; sourceTree = "<group>"; };
+		2C91B286EAC571B9B778C8B8E599C64C /* Print.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Print.swift; path = Pod/Classes/Print.swift; sourceTree = "<group>"; };
+		316C31884C9525FC40BCC1C13DB70A33 /* youtube-ios-player-helper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "youtube-ios-player-helper-Info.plist"; sourceTree = "<group>"; };
 		319D06AA0D1D0BA345459C039040A1ED /* SideMenu */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SideMenu; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32D717BF0A6EFE0C762B028DC79CFEBB /* RadioButtonContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadioButtonContainer.swift; path = Source/RadioButton/RadioButtonContainer.swift; sourceTree = "<group>"; };
+		3703197FF7B655EC1DF57A984D6DDCCA /* Initializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Initializable.swift; path = Pod/Classes/Initializable.swift; sourceTree = "<group>"; };
+		39FFA350FD649FB16E7ABFE2C340C1B3 /* SideMenuAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuAnimationController.swift; path = Pod/Classes/SideMenuAnimationController.swift; sourceTree = "<group>"; };
 		40A684FC8F3E5C5457005CA2EBCA8E3F /* Pods-reviewEx01-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-reviewEx01-umbrella.h"; sourceTree = "<group>"; };
-		46F666C409E27852E75689967707AAC5 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Pod/Classes/Extensions.swift; sourceTree = "<group>"; };
-		4A9B5990034CBACBD837FF1975E2B90B /* SideMenuTransitionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuTransitionController.swift; path = Pod/Classes/SideMenuTransitionController.swift; sourceTree = "<group>"; };
+		41B979A95778ACA53163466EEE88EDF7 /* SideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-umbrella.h"; sourceTree = "<group>"; };
+		47E6C818C6F3DF2E36398CE0F9BD798A /* RadioButtonContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadioButtonContainerView.swift; path = Source/RadioButton/RadioButtonContainerView.swift; sourceTree = "<group>"; };
+		4BB12FC79F1B6D83661B25A512419FF5 /* CheckBoxColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckBoxColor.swift; path = Source/CheckboxButton/CheckBoxColor.swift; sourceTree = "<group>"; };
+		4DD1331D59C319516ED096CABB94FA5C /* RadioButtonCircleStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadioButtonCircleStyle.swift; path = Source/RadioButton/RadioButtonCircleStyle.swift; sourceTree = "<group>"; };
 		55F4D9BA9AB003B0669B9CF319438CD1 /* Pods-reviewEx01.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-reviewEx01.modulemap"; sourceTree = "<group>"; };
-		58C0C28D45C85CF3F4F0A26D0CB04908 /* YTPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTPlayerView.h; path = Classes/YTPlayerView.h; sourceTree = "<group>"; };
-		61B15FA670DC425B5E5659B14D872BA7 /* SideMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SideMenu-Info.plist"; sourceTree = "<group>"; };
-		695B3FCFC0A45F2F0EFB79C6C45D0A14 /* SideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuNavigationController.swift; path = Pod/Classes/SideMenuNavigationController.swift; sourceTree = "<group>"; };
+		5853115E017EE9894950CB81EBDF83ED /* CheckboxButtonContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckboxButtonContainer.swift; path = Source/CheckboxButton/CheckboxButtonContainer.swift; sourceTree = "<group>"; };
+		599D5EBBDC705AE9D4BF35A1E6A28DEE /* YTPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTPlayerView.m; path = Classes/YTPlayerView.m; sourceTree = "<group>"; };
+		5D684249416A5588863640DC63843221 /* YTPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTPlayerView.h; path = Classes/YTPlayerView.h; sourceTree = "<group>"; };
+		64E0B2EDC9E3DE8EAA7676AD8901C10B /* CheckboxButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckboxButton.swift; path = Source/CheckboxButton/CheckboxButton.swift; sourceTree = "<group>"; };
+		675D9F0BAA66112FA544FFC8D5D75C65 /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewVibrantCell.swift; path = Pod/Classes/UITableViewVibrantCell.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		775E911ECDAA8904F4C2A6CFED3D9039 /* youtube-ios-player-helper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "youtube-ios-player-helper-prefix.pch"; sourceTree = "<group>"; };
-		790C7482B8E05FB467B282B6755DD96D /* youtube-ios-player-helper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "youtube-ios-player-helper-dummy.m"; sourceTree = "<group>"; };
+		7A8A9F85AF551F154A54C822720FB29C /* MBRadioCheckboxButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBRadioCheckboxButton-umbrella.h"; sourceTree = "<group>"; };
 		7B8257AEEC3EDBB2643D57245A923363 /* Pods-reviewEx01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-reviewEx01.release.xcconfig"; sourceTree = "<group>"; };
-		836E1D94786AE8684A4C72D90103ACD9 /* SideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-umbrella.h"; sourceTree = "<group>"; };
+		7F7F0112F919DE395B364D7431BFB03E /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Pod/Classes/Extensions.swift; sourceTree = "<group>"; };
+		7FD8A766BF862AF5CE23A897AB1F593B /* CheckboxButtonContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckboxButtonContainerView.swift; path = Source/CheckboxButton/CheckboxButtonContainerView.swift; sourceTree = "<group>"; };
+		80F75D53FF629557BA3B1FD41757DD2E /* SideMenuTransitionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuTransitionController.swift; path = Pod/Classes/SideMenuTransitionController.swift; sourceTree = "<group>"; };
+		83007E88CB75DEBA74FBE60B9D2F2946 /* SideMenuPushCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuPushCoordinator.swift; path = Pod/Classes/SideMenuPushCoordinator.swift; sourceTree = "<group>"; };
 		8498A1B2C60117E181CA67921DDAE0B6 /* youtube-ios-player-helper */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "youtube-ios-player-helper"; path = youtube_ios_player_helper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		897CA3D4D0EFB778D527150DA01E8A92 /* SideMenuInteractionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuInteractionController.swift; path = Pod/Classes/SideMenuInteractionController.swift; sourceTree = "<group>"; };
+		88982FFDC7A1B2F8B971621D92C30F99 /* SideMenuPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuPresentationController.swift; path = Pod/Classes/SideMenuPresentationController.swift; sourceTree = "<group>"; };
 		8A3E0F79A338D03A2436D818ED255CB9 /* Pods-reviewEx01-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-reviewEx01-frameworks.sh"; sourceTree = "<group>"; };
-		90375747D35026FDD94CD793DF90DE1F /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewVibrantCell.swift; path = Pod/Classes/UITableViewVibrantCell.swift; sourceTree = "<group>"; };
-		925BD31E4E7040E419B2F5659E552628 /* Initializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Initializable.swift; path = Pod/Classes/Initializable.swift; sourceTree = "<group>"; };
+		8DD6C720C26A097BF1FD1C3986CDFD2B /* youtube-ios-player-helper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "youtube-ios-player-helper.debug.xcconfig"; sourceTree = "<group>"; };
+		8F64DA539A63B90BB10DE4E1CF7D4281 /* youtube-ios-player-helper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "youtube-ios-player-helper-prefix.pch"; sourceTree = "<group>"; };
+		9036AD3BABBEB599DC4A396B095E1B67 /* SideMenuPresentationStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuPresentationStyle.swift; path = Pod/Classes/SideMenuPresentationStyle.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F546DB6AB3FAEB4B6BB68EBEB6BFA27 /* SideMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.debug.xcconfig; sourceTree = "<group>"; };
-		A0A0E657E4B81007B5BEFF5563F676B7 /* Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecations.swift; path = Pod/Classes/Deprecations.swift; sourceTree = "<group>"; };
-		A846AC4DA8DB8BBD572EFE42B8CA071E /* youtube-ios-player-helper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "youtube-ios-player-helper.release.xcconfig"; sourceTree = "<group>"; };
-		B07CD7CA3A1CB3E1984B4AA2A1B732AA /* SideMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = Pod/Classes/SideMenuManager.swift; sourceTree = "<group>"; };
-		B52CE676652282280897BC83CA2AEFBC /* SideMenuPushCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuPushCoordinator.swift; path = Pod/Classes/SideMenuPushCoordinator.swift; sourceTree = "<group>"; };
-		B9C7A1C90F2946958B0A26529478E1DF /* youtube-ios-player-helper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "youtube-ios-player-helper.modulemap"; sourceTree = "<group>"; };
-		BC81394A327BFE9A6F642A6CF213B93B /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Pod/Classes/Protected.swift; sourceTree = "<group>"; };
-		C3229DDCBB12BFE0F357642B315FB427 /* Assets.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Assets.bundle; path = "youtube-ios-player-helper/Assets.bundle"; sourceTree = "<group>"; };
-		CFE3BBD092BED880EFCDED9ED1840C24 /* youtube-ios-player-helper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "youtube-ios-player-helper-umbrella.h"; sourceTree = "<group>"; };
+		A144FE0FE7B2CF360C10B35D9812C8DD /* SideMenuInteractionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuInteractionController.swift; path = Pod/Classes/SideMenuInteractionController.swift; sourceTree = "<group>"; };
+		A18D37551E1401634BDBC023FAA90238 /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
+		A2812B9AF39A38A583D3CCA2E8737799 /* SideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuNavigationController.swift; path = Pod/Classes/SideMenuNavigationController.swift; sourceTree = "<group>"; };
+		A4170016C154FCF3345B57BE164B901F /* Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecations.swift; path = Pod/Classes/Deprecations.swift; sourceTree = "<group>"; };
+		A919C0FA0F218BDD6B3F6E411B2546D2 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Pod/Classes/Protected.swift; sourceTree = "<group>"; };
+		ABCB7DCC767562C9998ABC21149B045A /* youtube-ios-player-helper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "youtube-ios-player-helper.modulemap"; sourceTree = "<group>"; };
+		B67DF6F36436BEE8E443EF469D1BD9E9 /* SideMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SideMenu-Info.plist"; sourceTree = "<group>"; };
+		BC08CA7AA11ED1EBBF352F2E3CF65081 /* MBRadioCheckboxButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBRadioCheckboxButton.modulemap; sourceTree = "<group>"; };
+		C2288BCB5ACAD17FFAADAF6CB5B5C99E /* MBRadioCheckboxButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBRadioCheckboxButton-prefix.pch"; sourceTree = "<group>"; };
+		C25C447E23F9E8B2C6B56ECB101E1A2F /* Assets.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Assets.bundle; path = "youtube-ios-player-helper/Assets.bundle"; sourceTree = "<group>"; };
+		C776EC14E00CF438F37B8F5AAB6CE775 /* youtube-ios-player-helper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "youtube-ios-player-helper.release.xcconfig"; sourceTree = "<group>"; };
 		D0DA1264BAFF244C978171BFF16BD189 /* Pods-reviewEx01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-reviewEx01.debug.xcconfig"; sourceTree = "<group>"; };
-		D81311C1400704B818A7CB2EDC2AA019 /* SideMenuAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuAnimationController.swift; path = Pod/Classes/SideMenuAnimationController.swift; sourceTree = "<group>"; };
-		E33381CE3BCB8C91E88CE02ACA47ECB2 /* SideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenu-dummy.m"; sourceTree = "<group>"; };
+		D417802829D6AE846D84D5AF790AA35E /* MBRadioCheckboxButton */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBRadioCheckboxButton; path = MBRadioCheckboxButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C53822B8D2E81DD66A452DD255B9F5 /* RadioButtonColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadioButtonColor.swift; path = Source/RadioButton/RadioButtonColor.swift; sourceTree = "<group>"; };
+		DAE60185BF1A8F813C62612A2B82DD2A /* SideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenu-dummy.m"; sourceTree = "<group>"; };
+		EB73C11FCDD1045C42D3D7C726BE4FBC /* RadioCheckboxBaseContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadioCheckboxBaseContainer.swift; path = Source/BaseButton/RadioCheckboxBaseContainer.swift; sourceTree = "<group>"; };
+		F1C56AF7918A358AE7E373100DD74987 /* MBRadioCheckboxButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBRadioCheckboxButton-dummy.m"; sourceTree = "<group>"; };
+		F2DEA5F5F3C2B99D7631034FD3A38E3C /* SideMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.debug.xcconfig; sourceTree = "<group>"; };
 		F47545C1D500DDC69078D06DA3C40ECE /* Pods-reviewEx01-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-reviewEx01-Info.plist"; sourceTree = "<group>"; };
-		F8C8F76A19C872629238709E59271766 /* SideMenuPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuPresentationController.swift; path = Pod/Classes/SideMenuPresentationController.swift; sourceTree = "<group>"; };
-		FE48339B5DB10A10352ACB7053E4A2AA /* Print.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Print.swift; path = Pod/Classes/Print.swift; sourceTree = "<group>"; };
+		FBB6BC97563B2DEA9F89FEECB4033703 /* RadioCheckboxBaseButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadioCheckboxBaseButton.swift; path = Source/BaseButton/RadioCheckboxBaseButton.swift; sourceTree = "<group>"; };
+		FC106510FA4022E859678DC7F6309AD5 /* CheckboxLineStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckboxLineStyle.swift; path = Source/CheckboxButton/CheckboxLineStyle.swift; sourceTree = "<group>"; };
+		FFE5D9ADAC933117D2CCA670CAE929D2 /* RadioButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadioButton.swift; path = Source/RadioButton/RadioButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,14 +151,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2E8A8E50B6EB067D5FCF19DF0099D0F9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0EE3CBA6A35101DB72C3D5CAB674CFFF /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5DC25AA7986F2BF0AC82E6132A31A66D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -125,32 +159,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		99EC56C7A71335F0DCDC6464269A4C20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98604B1D59F6D79730517A37CA2D729 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB67B3D3AF1419175CC08B8CA6456BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D48E6A3708835A22ED1185609E11A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		42A131352C43979095BB4B398198A352 /* SideMenu */ = {
-			isa = PBXGroup;
-			children = (
-				A0A0E657E4B81007B5BEFF5563F676B7 /* Deprecations.swift */,
-				46F666C409E27852E75689967707AAC5 /* Extensions.swift */,
-				925BD31E4E7040E419B2F5659E552628 /* Initializable.swift */,
-				FE48339B5DB10A10352ACB7053E4A2AA /* Print.swift */,
-				BC81394A327BFE9A6F642A6CF213B93B /* Protected.swift */,
-				D81311C1400704B818A7CB2EDC2AA019 /* SideMenuAnimationController.swift */,
-				897CA3D4D0EFB778D527150DA01E8A92 /* SideMenuInteractionController.swift */,
-				B07CD7CA3A1CB3E1984B4AA2A1B732AA /* SideMenuManager.swift */,
-				695B3FCFC0A45F2F0EFB79C6C45D0A14 /* SideMenuNavigationController.swift */,
-				F8C8F76A19C872629238709E59271766 /* SideMenuPresentationController.swift */,
-				1913886F3DDC74AB7D4E269C76437BEE /* SideMenuPresentationStyle.swift */,
-				B52CE676652282280897BC83CA2AEFBC /* SideMenuPushCoordinator.swift */,
-				4A9B5990034CBACBD837FF1975E2B90B /* SideMenuTransitionController.swift */,
-				90375747D35026FDD94CD793DF90DE1F /* UITableViewVibrantCell.swift */,
-				595F35A82B1102CFE175E9292DB5BD42 /* Support Files */,
-			);
-			name = SideMenu;
-			path = SideMenu;
-			sourceTree = "<group>";
-		};
 		4C3F2955817A474E7BC52B622E9CF1DB /* Pods-reviewEx01 */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,39 +203,45 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		58EE2383E8FC6F78E7BE81D28B81AB86 /* youtube-ios-player-helper */ = {
+		5953F88573B1C565109FE04053C2E9E5 /* SideMenu */ = {
 			isa = PBXGroup;
 			children = (
-				58C0C28D45C85CF3F4F0A26D0CB04908 /* YTPlayerView.h */,
-				1CAB811E2A3D11D5270503DDE3EC6455 /* YTPlayerView.m */,
-				7049FE2F847C3E0B6D691CF72B86F74B /* Resources */,
-				A7B0A3BFD67024ABF48D09A903746866 /* Support Files */,
+				A4170016C154FCF3345B57BE164B901F /* Deprecations.swift */,
+				7F7F0112F919DE395B364D7431BFB03E /* Extensions.swift */,
+				3703197FF7B655EC1DF57A984D6DDCCA /* Initializable.swift */,
+				2C91B286EAC571B9B778C8B8E599C64C /* Print.swift */,
+				A919C0FA0F218BDD6B3F6E411B2546D2 /* Protected.swift */,
+				39FFA350FD649FB16E7ABFE2C340C1B3 /* SideMenuAnimationController.swift */,
+				A144FE0FE7B2CF360C10B35D9812C8DD /* SideMenuInteractionController.swift */,
+				1BE1EA5ED0F6D89058767E46E5282508 /* SideMenuManager.swift */,
+				A2812B9AF39A38A583D3CCA2E8737799 /* SideMenuNavigationController.swift */,
+				88982FFDC7A1B2F8B971621D92C30F99 /* SideMenuPresentationController.swift */,
+				9036AD3BABBEB599DC4A396B095E1B67 /* SideMenuPresentationStyle.swift */,
+				83007E88CB75DEBA74FBE60B9D2F2946 /* SideMenuPushCoordinator.swift */,
+				80F75D53FF629557BA3B1FD41757DD2E /* SideMenuTransitionController.swift */,
+				675D9F0BAA66112FA544FFC8D5D75C65 /* UITableViewVibrantCell.swift */,
+				F45AFC17689624D6FB4A24EB77ABB240 /* Support Files */,
 			);
-			name = "youtube-ios-player-helper";
-			path = "youtube-ios-player-helper";
+			name = SideMenu;
+			path = SideMenu;
 			sourceTree = "<group>";
 		};
-		595F35A82B1102CFE175E9292DB5BD42 /* Support Files */ = {
+		76D666669A99331D770FAD2E73157D42 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				29DA4C4F0A4320E3076C02C74241E3E4 /* SideMenu.modulemap */,
-				E33381CE3BCB8C91E88CE02ACA47ECB2 /* SideMenu-dummy.m */,
-				61B15FA670DC425B5E5659B14D872BA7 /* SideMenu-Info.plist */,
-				20BBCCD0B49C0D02081CA786A7CFA2DB /* SideMenu-prefix.pch */,
-				836E1D94786AE8684A4C72D90103ACD9 /* SideMenu-umbrella.h */,
-				9F546DB6AB3FAEB4B6BB68EBEB6BFA27 /* SideMenu.debug.xcconfig */,
-				21D841B2A35F2381F7A24B019E3C169D /* SideMenu.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SideMenu";
-			sourceTree = "<group>";
-		};
-		7049FE2F847C3E0B6D691CF72B86F74B /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C3229DDCBB12BFE0F357642B315FB427 /* Assets.bundle */,
+				C25C447E23F9E8B2C6B56ECB101E1A2F /* Assets.bundle */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		820290A6550D5978693265AF651B2E83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				944C051178BE8C65473386BEC8B90978 /* MBRadioCheckboxButton */,
+				5953F88573B1C565109FE04053C2E9E5 /* SideMenu */,
+				949A3C7C6BFDC233B4CF465B8D00F350 /* youtube-ios-player-helper */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		868ED1FCBC620A7772121B270FA93EE1 /* Targets Support Files */ = {
@@ -219,28 +252,63 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9B92436BA8336FD27E0A116AC0A27B53 /* Pods */ = {
+		87C3FF60F68E291B60B41E3A0F6C3786 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				42A131352C43979095BB4B398198A352 /* SideMenu */,
-				58EE2383E8FC6F78E7BE81D28B81AB86 /* youtube-ios-player-helper */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		A7B0A3BFD67024ABF48D09A903746866 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B9C7A1C90F2946958B0A26529478E1DF /* youtube-ios-player-helper.modulemap */,
-				790C7482B8E05FB467B282B6755DD96D /* youtube-ios-player-helper-dummy.m */,
-				0113348788D5E33375BEB866BCE2293A /* youtube-ios-player-helper-Info.plist */,
-				775E911ECDAA8904F4C2A6CFED3D9039 /* youtube-ios-player-helper-prefix.pch */,
-				CFE3BBD092BED880EFCDED9ED1840C24 /* youtube-ios-player-helper-umbrella.h */,
-				1CF08B75321F82C935B63F761C657FD3 /* youtube-ios-player-helper.debug.xcconfig */,
-				A846AC4DA8DB8BBD572EFE42B8CA071E /* youtube-ios-player-helper.release.xcconfig */,
+				ABCB7DCC767562C9998ABC21149B045A /* youtube-ios-player-helper.modulemap */,
+				245B6F6FD8CA7D8495C7E2A7B438807D /* youtube-ios-player-helper-dummy.m */,
+				316C31884C9525FC40BCC1C13DB70A33 /* youtube-ios-player-helper-Info.plist */,
+				8F64DA539A63B90BB10DE4E1CF7D4281 /* youtube-ios-player-helper-prefix.pch */,
+				24F3FAFB007537E575395A79C8E3446F /* youtube-ios-player-helper-umbrella.h */,
+				8DD6C720C26A097BF1FD1C3986CDFD2B /* youtube-ios-player-helper.debug.xcconfig */,
+				C776EC14E00CF438F37B8F5AAB6CE775 /* youtube-ios-player-helper.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/youtube-ios-player-helper";
+			sourceTree = "<group>";
+		};
+		944C051178BE8C65473386BEC8B90978 /* MBRadioCheckboxButton */ = {
+			isa = PBXGroup;
+			children = (
+				64E0B2EDC9E3DE8EAA7676AD8901C10B /* CheckboxButton.swift */,
+				5853115E017EE9894950CB81EBDF83ED /* CheckboxButtonContainer.swift */,
+				7FD8A766BF862AF5CE23A897AB1F593B /* CheckboxButtonContainerView.swift */,
+				4BB12FC79F1B6D83661B25A512419FF5 /* CheckBoxColor.swift */,
+				FC106510FA4022E859678DC7F6309AD5 /* CheckboxLineStyle.swift */,
+				FFE5D9ADAC933117D2CCA670CAE929D2 /* RadioButton.swift */,
+				4DD1331D59C319516ED096CABB94FA5C /* RadioButtonCircleStyle.swift */,
+				D9C53822B8D2E81DD66A452DD255B9F5 /* RadioButtonColor.swift */,
+				32D717BF0A6EFE0C762B028DC79CFEBB /* RadioButtonContainer.swift */,
+				47E6C818C6F3DF2E36398CE0F9BD798A /* RadioButtonContainerView.swift */,
+				FBB6BC97563B2DEA9F89FEECB4033703 /* RadioCheckboxBaseButton.swift */,
+				EB73C11FCDD1045C42D3D7C726BE4FBC /* RadioCheckboxBaseContainer.swift */,
+				FBF7A802EBD49FF4A3D5792D5C1CA1A0 /* Support Files */,
+			);
+			name = MBRadioCheckboxButton;
+			path = MBRadioCheckboxButton;
+			sourceTree = "<group>";
+		};
+		949A3C7C6BFDC233B4CF465B8D00F350 /* youtube-ios-player-helper */ = {
+			isa = PBXGroup;
+			children = (
+				5D684249416A5588863640DC63843221 /* YTPlayerView.h */,
+				599D5EBBDC705AE9D4BF35A1E6A28DEE /* YTPlayerView.m */,
+				76D666669A99331D770FAD2E73157D42 /* Resources */,
+				87C3FF60F68E291B60B41E3A0F6C3786 /* Support Files */,
+			);
+			name = "youtube-ios-player-helper";
+			path = "youtube-ios-player-helper";
+			sourceTree = "<group>";
+		};
+		BFF72C8D93AE0544E303619520A72324 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D417802829D6AE846D84D5AF790AA35E /* MBRadioCheckboxButton */,
+				0E3B308491FE9295FEFD08DE72FA88A2 /* Pods-reviewEx01 */,
+				319D06AA0D1D0BA345459C039040A1ED /* SideMenu */,
+				8498A1B2C60117E181CA67921DDAE0B6 /* youtube-ios-player-helper */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -248,8 +316,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				9B92436BA8336FD27E0A116AC0A27B53 /* Pods */,
-				E686750F0D6DC835752D33B04F479B90 /* Products */,
+				820290A6550D5978693265AF651B2E83 /* Pods */,
+				BFF72C8D93AE0544E303619520A72324 /* Products */,
 				868ED1FCBC620A7772121B270FA93EE1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -262,32 +330,60 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E686750F0D6DC835752D33B04F479B90 /* Products */ = {
+		F45AFC17689624D6FB4A24EB77ABB240 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0E3B308491FE9295FEFD08DE72FA88A2 /* Pods-reviewEx01 */,
-				319D06AA0D1D0BA345459C039040A1ED /* SideMenu */,
-				8498A1B2C60117E181CA67921DDAE0B6 /* youtube-ios-player-helper */,
+				2C50F1E76E8E9206C44147C0F07F8464 /* SideMenu.modulemap */,
+				DAE60185BF1A8F813C62612A2B82DD2A /* SideMenu-dummy.m */,
+				B67DF6F36436BEE8E443EF469D1BD9E9 /* SideMenu-Info.plist */,
+				A18D37551E1401634BDBC023FAA90238 /* SideMenu-prefix.pch */,
+				41B979A95778ACA53163466EEE88EDF7 /* SideMenu-umbrella.h */,
+				F2DEA5F5F3C2B99D7631034FD3A38E3C /* SideMenu.debug.xcconfig */,
+				05B75FF3D840D12224E48C5703675923 /* SideMenu.release.xcconfig */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/SideMenu";
+			sourceTree = "<group>";
+		};
+		FBF7A802EBD49FF4A3D5792D5C1CA1A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC08CA7AA11ED1EBBF352F2E3CF65081 /* MBRadioCheckboxButton.modulemap */,
+				F1C56AF7918A358AE7E373100DD74987 /* MBRadioCheckboxButton-dummy.m */,
+				136E18E56C73A84FA4531607E5A1CB6F /* MBRadioCheckboxButton-Info.plist */,
+				C2288BCB5ACAD17FFAADAF6CB5B5C99E /* MBRadioCheckboxButton-prefix.pch */,
+				7A8A9F85AF551F154A54C822720FB29C /* MBRadioCheckboxButton-umbrella.h */,
+				19261DA27479D582136537929EA37075 /* MBRadioCheckboxButton.debug.xcconfig */,
+				21FDE9AA62E81F6DF0111DB74A8211CC /* MBRadioCheckboxButton.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBRadioCheckboxButton";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		21CC7C647285B1CAF5E40FB4D28CD14E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2BB81ED0497020A9DA87C151A09E4F10 /* Pods-reviewEx01-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		808B3C78170DE39A17382B38756CAA06 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E56EEF71CC5AF0DA40228F2CA67B4BA0 /* SideMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99029B5D81FB4D23C6DB0A3B5EE59EFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8261EB3F4FF0C888B04F23A7D0ABAC5F /* MBRadioCheckboxButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48C401749F7C8A25655D2DE8C24D6C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11598DBE663CB3125BBD49F6546B495E /* Pods-reviewEx01-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,20 +399,39 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C0CBF804A480AA3003BB9432294B7A86 /* Pods-reviewEx01 */ = {
+		9AB9C4135C214FAD2CB39E8241B20B94 /* MBRadioCheckboxButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C84BE01A4FB8215828D4A48CEC56796D /* Build configuration list for PBXNativeTarget "Pods-reviewEx01" */;
+			buildConfigurationList = FB4BEC059C7575BF250F8B16A71BF848 /* Build configuration list for PBXNativeTarget "MBRadioCheckboxButton" */;
 			buildPhases = (
-				21CC7C647285B1CAF5E40FB4D28CD14E /* Headers */,
-				22726458F70804E53E98D37BEFF86E0B /* Sources */,
-				2E8A8E50B6EB067D5FCF19DF0099D0F9 /* Frameworks */,
-				0A380AA845DB8AEB4A4105EBF697F5D9 /* Resources */,
+				99029B5D81FB4D23C6DB0A3B5EE59EFD /* Headers */,
+				B98CE19BB7971175179D187333AA1A28 /* Sources */,
+				CB67B3D3AF1419175CC08B8CA6456BEB /* Frameworks */,
+				E79E6C27751464578F232CB6D60265C5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9AE3A14AD01E3E4344630C1E1AF643FE /* PBXTargetDependency */,
-				1E3750187458B3110B0ABF97FC984633 /* PBXTargetDependency */,
+			);
+			name = MBRadioCheckboxButton;
+			productName = MBRadioCheckboxButton;
+			productReference = D417802829D6AE846D84D5AF790AA35E /* MBRadioCheckboxButton */;
+			productType = "com.apple.product-type.framework";
+		};
+		C0CBF804A480AA3003BB9432294B7A86 /* Pods-reviewEx01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6EEA9837E0E97F403AE74F36CC243F2 /* Build configuration list for PBXNativeTarget "Pods-reviewEx01" */;
+			buildPhases = (
+				B48C401749F7C8A25655D2DE8C24D6C4 /* Headers */,
+				5C064D1CBCF9ECC0EDD80CA39930DEFF /* Sources */,
+				99EC56C7A71335F0DCDC6464269A4C20 /* Frameworks */,
+				054A287FC6F80EC419425FAA6B64048A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B95CAF64368FE16920B62D3EB76AAC7 /* PBXTargetDependency */,
+				9BA833C396A02466B2969F1099C1623F /* PBXTargetDependency */,
+				656CEEE31EE7A851E35A5F1741A7F4C3 /* PBXTargetDependency */,
 			);
 			name = "Pods-reviewEx01";
 			productName = Pods_reviewEx01;
@@ -377,10 +492,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E686750F0D6DC835752D33B04F479B90 /* Products */;
+			productRefGroup = BFF72C8D93AE0544E303619520A72324 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				9AB9C4135C214FAD2CB39E8241B20B94 /* MBRadioCheckboxButton */,
 				C0CBF804A480AA3003BB9432294B7A86 /* Pods-reviewEx01 */,
 				C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */,
 				D1A7AF186BE136DE56FD5699070589B8 /* youtube-ios-player-helper */,
@@ -389,7 +505,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0A380AA845DB8AEB4A4105EBF697F5D9 /* Resources */ = {
+		054A287FC6F80EC419425FAA6B64048A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -411,14 +527,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E79E6C27751464578F232CB6D60265C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		22726458F70804E53E98D37BEFF86E0B /* Sources */ = {
+		5C064D1CBCF9ECC0EDD80CA39930DEFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89D841B226ADB8F2EE319AC3EE50405F /* Pods-reviewEx01-dummy.m in Sources */,
+				2F262E8114A9671C88DA9E3A2B2C5AB8 /* Pods-reviewEx01-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +567,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B98CE19BB7971175179D187333AA1A28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ADED4F688110C1BBBF2B8DAA577A707 /* CheckboxButton.swift in Sources */,
+				3FD86BDF5CF8B360C42AADF88D79576A /* CheckboxButtonContainer.swift in Sources */,
+				9C333A6C461FE5AA4CE484D1A360CD7F /* CheckboxButtonContainerView.swift in Sources */,
+				1506A50224587430A19AE54C219F4CD9 /* CheckBoxColor.swift in Sources */,
+				EBF728A69C9C501641662643EA6D04FF /* CheckboxLineStyle.swift in Sources */,
+				5418927E483D4FF27688102720414BD3 /* MBRadioCheckboxButton-dummy.m in Sources */,
+				D66DD5EEDAC4A367E08DECFFE4006DF7 /* RadioButton.swift in Sources */,
+				3559CB444E9476521EFC53162D3BA759 /* RadioButtonCircleStyle.swift in Sources */,
+				9FA4F1CCAEB88E3CAE81570A7EAB3A6B /* RadioButtonColor.swift in Sources */,
+				23B1B3EF1DE0EEABC738100054F62ECF /* RadioButtonContainer.swift in Sources */,
+				EB8A749587F2C4E2BA13F7D88E9EC710 /* RadioButtonContainerView.swift in Sources */,
+				A71CA360A99661E0EC2216BB82F75DA5 /* RadioCheckboxBaseButton.swift in Sources */,
+				6ED70AF94E1D948F55A1BBE24BC1E18A /* RadioCheckboxBaseContainer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D21B0C27ABE38FA0CE2357BE623D4C01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -456,24 +599,30 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1E3750187458B3110B0ABF97FC984633 /* PBXTargetDependency */ = {
+		656CEEE31EE7A851E35A5F1741A7F4C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "youtube-ios-player-helper";
 			target = D1A7AF186BE136DE56FD5699070589B8 /* youtube-ios-player-helper */;
-			targetProxy = FBED3DDF20B1D02C13F557C1E25F502E /* PBXContainerItemProxy */;
+			targetProxy = 6C72043C1A9012309BF60839C93CFAFF /* PBXContainerItemProxy */;
 		};
-		9AE3A14AD01E3E4344630C1E1AF643FE /* PBXTargetDependency */ = {
+		9B95CAF64368FE16920B62D3EB76AAC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBRadioCheckboxButton;
+			target = 9AB9C4135C214FAD2CB39E8241B20B94 /* MBRadioCheckboxButton */;
+			targetProxy = 96489FFF77FE99289914A72DBCE0583F /* PBXContainerItemProxy */;
+		};
+		9BA833C396A02466B2969F1099C1623F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SideMenu;
 			target = C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */;
-			targetProxy = BAD1794F38964185FB0A4C392798FB76 /* PBXContainerItemProxy */;
+			targetProxy = 5CDAA409E1E3E62A7CE174179B822FCB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2362686A740DEEA3F698E9D91CF5B616 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A846AC4DA8DB8BBD572EFE42B8CA071E /* youtube-ios-player-helper.release.xcconfig */;
+			baseConfigurationReference = C776EC14E00CF438F37B8F5AAB6CE775 /* youtube-ios-player-helper.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -505,43 +654,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		3A86D3239614963A523616E371603B0A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0DA1264BAFF244C978171BFF16BD189 /* Pods-reviewEx01.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-reviewEx01/Pods-reviewEx01-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-reviewEx01/Pods-reviewEx01.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -609,112 +721,7 @@
 			};
 			name = Debug;
 		};
-		46BFE2312ECDC35BEC02D94DC5B60F4C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21D841B2A35F2381F7A24B019E3C169D /* SideMenu.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SideMenu/SideMenu-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
-				PRODUCT_MODULE_NAME = SideMenu;
-				PRODUCT_NAME = SideMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		68B2C053115207394BE907EA3676FBC8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CF08B75321F82C935B63F761C657FD3 /* youtube-ios-player-helper.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper.modulemap";
-				PRODUCT_MODULE_NAME = youtube_ios_player_helper;
-				PRODUCT_NAME = youtube_ios_player_helper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9E0C37648D76E361234D07CA876D0358 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F546DB6AB3FAEB4B6BB68EBEB6BFA27 /* SideMenu.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SideMenu/SideMenu-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
-				PRODUCT_MODULE_NAME = SideMenu;
-				PRODUCT_NAME = SideMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A4AA5E29B9A40A66F06D6D69C7AB3B7C /* Release */ = {
+		4642E96D1CDEE25B0181E57527A04D8E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7B8257AEEC3EDBB2643D57245A923363 /* Pods-reviewEx01.release.xcconfig */;
 			buildSettings = {
@@ -751,6 +758,183 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		46BFE2312ECDC35BEC02D94DC5B60F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05B75FF3D840D12224E48C5703675923 /* SideMenu.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/SideMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				PRODUCT_MODULE_NAME = SideMenu;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		68B2C053115207394BE907EA3676FBC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DD6C720C26A097BF1FD1C3986CDFD2B /* youtube-ios-player-helper.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper.modulemap";
+				PRODUCT_MODULE_NAME = youtube_ios_player_helper;
+				PRODUCT_NAME = youtube_ios_player_helper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7BEB34ECDB4EA726FAF26C2E92CC9EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21FDE9AA62E81F6DF0111DB74A8211CC /* MBRadioCheckboxButton.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBRadioCheckboxButton/MBRadioCheckboxButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBRadioCheckboxButton/MBRadioCheckboxButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MBRadioCheckboxButton/MBRadioCheckboxButton.modulemap";
+				PRODUCT_MODULE_NAME = MBRadioCheckboxButton;
+				PRODUCT_NAME = MBRadioCheckboxButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E0C37648D76E361234D07CA876D0358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2DEA5F5F3C2B99D7631034FD3A38E3C /* SideMenu.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/SideMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				PRODUCT_MODULE_NAME = SideMenu;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A65DD7D46B4E77EE82A04E16D1F2EC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0DA1264BAFF244C978171BFF16BD189 /* Pods-reviewEx01.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-reviewEx01/Pods-reviewEx01-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-reviewEx01/Pods-reviewEx01.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -814,6 +998,40 @@
 			};
 			name = Release;
 		};
+		FB5BDC244595532C4E107D340490B696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19261DA27479D582136537929EA37075 /* MBRadioCheckboxButton.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBRadioCheckboxButton/MBRadioCheckboxButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBRadioCheckboxButton/MBRadioCheckboxButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MBRadioCheckboxButton/MBRadioCheckboxButton.modulemap";
+				PRODUCT_MODULE_NAME = MBRadioCheckboxButton;
+				PRODUCT_NAME = MBRadioCheckboxButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -844,11 +1062,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C84BE01A4FB8215828D4A48CEC56796D /* Build configuration list for PBXNativeTarget "Pods-reviewEx01" */ = {
+		D6EEA9837E0E97F403AE74F36CC243F2 /* Build configuration list for PBXNativeTarget "Pods-reviewEx01" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3A86D3239614963A523616E371603B0A /* Debug */,
-				A4AA5E29B9A40A66F06D6D69C7AB3B7C /* Release */,
+				A65DD7D46B4E77EE82A04E16D1F2EC56 /* Debug */,
+				4642E96D1CDEE25B0181E57527A04D8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB4BEC059C7575BF250F8B16A71BF848 /* Build configuration list for PBXNativeTarget "MBRadioCheckboxButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5BDC244595532C4E107D340490B696 /* Debug */,
+				7BEB34ECDB4EA726FAF26C2E92CC9EB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

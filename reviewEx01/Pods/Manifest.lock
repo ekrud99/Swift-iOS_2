@@ -1,20 +1,24 @@
 PODS:
+  - MBRadioCheckboxButton (2.0)
   - SideMenu (6.5.0)
   - youtube-ios-player-helper (0.1.6)
 
 DEPENDENCIES:
+  - MBRadioCheckboxButton
   - SideMenu (~> 6.0)
   - youtube-ios-player-helper (~> 0.1.4)
 
 SPEC REPOS:
   trunk:
+    - MBRadioCheckboxButton
     - SideMenu
     - youtube-ios-player-helper
 
 SPEC CHECKSUMS:
+  MBRadioCheckboxButton: 6e2a2cdc441e292e45b64c4e65eb8fc1fc05eef2
   SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
   youtube-ios-player-helper: 21ab92db027c7ff86cb17a3843a3f6eafc8158d2
 
-PODFILE CHECKSUM: 45fab104dd1d55fa31803afd2315d043bad20179
+PODFILE CHECKSUM: 3b39326b5e1e3c3827572376c29253243b19938a
 
 COCOAPODS: 1.11.3
